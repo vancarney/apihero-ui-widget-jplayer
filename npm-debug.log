@@ -1,0 +1,2051 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/Users/van/Documents/workspace/apihero-ui-widget-jplayer',
+5 verbose install   [ 'lodash',
+5 verbose install     'uglify-js',
+5 verbose install     'coffee-script',
+5 verbose install     'less',
+5 verbose install     'mincer',
+5 verbose install     'bower',
+5 verbose install     'mocha',
+5 verbose install     'chai',
+5 verbose install     'supertest',
+5 verbose install     'loopback-testing',
+5 verbose install     'apihero-ui',
+5 verbose install     'docco' ] ]
+6 info preinstall apihero-ui-widget-jplayer@0.0.1-alpha
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'lodash@^3.9.3', null ]
+9 verbose cache add name=undefined spec="lodash@^3.9.3" args=["lodash@^3.9.3",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'lodash@^3.9.3',
+10 verbose parsed url   path: 'lodash@^3.9.3',
+10 verbose parsed url   href: 'lodash@^3.9.3' }
+11 verbose cache add [ 'uglify-js@^2.4.15', null ]
+12 verbose cache add name=undefined spec="uglify-js@^2.4.15" args=["uglify-js@^2.4.15",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'uglify-js@^2.4.15',
+13 verbose parsed url   path: 'uglify-js@^2.4.15',
+13 verbose parsed url   href: 'uglify-js@^2.4.15' }
+14 verbose cache add [ 'coffee-script@^1.9.3', null ]
+15 verbose cache add name=undefined spec="coffee-script@^1.9.3" args=["coffee-script@^1.9.3",null]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: 'coffee-script@^1.9.3',
+16 verbose parsed url   path: 'coffee-script@^1.9.3',
+16 verbose parsed url   href: 'coffee-script@^1.9.3' }
+17 verbose cache add [ 'less@^2.5.1', null ]
+18 verbose cache add name=undefined spec="less@^2.5.1" args=["less@^2.5.1",null]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: 'less@^2.5.1',
+19 verbose parsed url   path: 'less@^2.5.1',
+19 verbose parsed url   href: 'less@^2.5.1' }
+20 verbose cache add name="lodash" spec="^3.9.3" args=["lodash","^3.9.3"]
+21 verbose parsed url { protocol: null,
+21 verbose parsed url   slashes: null,
+21 verbose parsed url   auth: null,
+21 verbose parsed url   host: null,
+21 verbose parsed url   port: null,
+21 verbose parsed url   hostname: null,
+21 verbose parsed url   hash: null,
+21 verbose parsed url   search: null,
+21 verbose parsed url   query: null,
+21 verbose parsed url   pathname: '^3.9.3',
+21 verbose parsed url   path: '^3.9.3',
+21 verbose parsed url   href: '^3.9.3' }
+22 verbose addNamed [ 'lodash', '^3.9.3' ]
+23 verbose addNamed [ null, '>=3.9.3-0 <4.0.0-0' ]
+24 verbose cache add name="uglify-js" spec="^2.4.15" args=["uglify-js","^2.4.15"]
+25 verbose parsed url { protocol: null,
+25 verbose parsed url   slashes: null,
+25 verbose parsed url   auth: null,
+25 verbose parsed url   host: null,
+25 verbose parsed url   port: null,
+25 verbose parsed url   hostname: null,
+25 verbose parsed url   hash: null,
+25 verbose parsed url   search: null,
+25 verbose parsed url   query: null,
+25 verbose parsed url   pathname: '^2.4.15',
+25 verbose parsed url   path: '^2.4.15',
+25 verbose parsed url   href: '^2.4.15' }
+26 verbose addNamed [ 'uglify-js', '^2.4.15' ]
+27 verbose addNamed [ null, '>=2.4.15-0 <3.0.0-0' ]
+28 verbose cache add name="coffee-script" spec="^1.9.3" args=["coffee-script","^1.9.3"]
+29 verbose parsed url { protocol: null,
+29 verbose parsed url   slashes: null,
+29 verbose parsed url   auth: null,
+29 verbose parsed url   host: null,
+29 verbose parsed url   port: null,
+29 verbose parsed url   hostname: null,
+29 verbose parsed url   hash: null,
+29 verbose parsed url   search: null,
+29 verbose parsed url   query: null,
+29 verbose parsed url   pathname: '^1.9.3',
+29 verbose parsed url   path: '^1.9.3',
+29 verbose parsed url   href: '^1.9.3' }
+30 verbose addNamed [ 'coffee-script', '^1.9.3' ]
+31 verbose addNamed [ null, '>=1.9.3-0 <2.0.0-0' ]
+32 verbose cache add [ 'mincer@^1.3.0', null ]
+33 verbose cache add name=undefined spec="mincer@^1.3.0" args=["mincer@^1.3.0",null]
+34 verbose parsed url { protocol: null,
+34 verbose parsed url   slashes: null,
+34 verbose parsed url   auth: null,
+34 verbose parsed url   host: null,
+34 verbose parsed url   port: null,
+34 verbose parsed url   hostname: null,
+34 verbose parsed url   hash: null,
+34 verbose parsed url   search: null,
+34 verbose parsed url   query: null,
+34 verbose parsed url   pathname: 'mincer@^1.3.0',
+34 verbose parsed url   path: 'mincer@^1.3.0',
+34 verbose parsed url   href: 'mincer@^1.3.0' }
+35 verbose cache add [ 'bower@latest', null ]
+36 verbose cache add name=undefined spec="bower@latest" args=["bower@latest",null]
+37 verbose parsed url { protocol: null,
+37 verbose parsed url   slashes: null,
+37 verbose parsed url   auth: null,
+37 verbose parsed url   host: null,
+37 verbose parsed url   port: null,
+37 verbose parsed url   hostname: null,
+37 verbose parsed url   hash: null,
+37 verbose parsed url   search: null,
+37 verbose parsed url   query: null,
+37 verbose parsed url   pathname: 'bower@latest',
+37 verbose parsed url   path: 'bower@latest',
+37 verbose parsed url   href: 'bower@latest' }
+38 verbose cache add name="less" spec="^2.5.1" args=["less","^2.5.1"]
+39 verbose parsed url { protocol: null,
+39 verbose parsed url   slashes: null,
+39 verbose parsed url   auth: null,
+39 verbose parsed url   host: null,
+39 verbose parsed url   port: null,
+39 verbose parsed url   hostname: null,
+39 verbose parsed url   hash: null,
+39 verbose parsed url   search: null,
+39 verbose parsed url   query: null,
+39 verbose parsed url   pathname: '^2.5.1',
+39 verbose parsed url   path: '^2.5.1',
+39 verbose parsed url   href: '^2.5.1' }
+40 verbose addNamed [ 'less', '^2.5.1' ]
+41 verbose addNamed [ null, '>=2.5.1-0 <3.0.0-0' ]
+42 silly lockFile 890b122f-lodash-3-9-3 lodash@^3.9.3
+43 verbose lock lodash@^3.9.3 /Users/van/.npm/890b122f-lodash-3-9-3.lock
+44 silly lockFile cc3ce3f3-uglify-js-2-4-15 uglify-js@^2.4.15
+45 verbose lock uglify-js@^2.4.15 /Users/van/.npm/cc3ce3f3-uglify-js-2-4-15.lock
+46 silly lockFile 5d8f8add-coffee-script-1-9-3 coffee-script@^1.9.3
+47 verbose lock coffee-script@^1.9.3 /Users/van/.npm/5d8f8add-coffee-script-1-9-3.lock
+48 silly lockFile a1f81b6b-less-2-5-1 less@^2.5.1
+49 verbose lock less@^2.5.1 /Users/van/.npm/a1f81b6b-less-2-5-1.lock
+50 verbose cache add name="mincer" spec="^1.3.0" args=["mincer","^1.3.0"]
+51 verbose parsed url { protocol: null,
+51 verbose parsed url   slashes: null,
+51 verbose parsed url   auth: null,
+51 verbose parsed url   host: null,
+51 verbose parsed url   port: null,
+51 verbose parsed url   hostname: null,
+51 verbose parsed url   hash: null,
+51 verbose parsed url   search: null,
+51 verbose parsed url   query: null,
+51 verbose parsed url   pathname: '^1.3.0',
+51 verbose parsed url   path: '^1.3.0',
+51 verbose parsed url   href: '^1.3.0' }
+52 verbose addNamed [ 'mincer', '^1.3.0' ]
+53 verbose addNamed [ null, '>=1.3.0-0 <2.0.0-0' ]
+54 silly lockFile ff4ebef1-mincer-1-3-0 mincer@^1.3.0
+55 verbose lock mincer@^1.3.0 /Users/van/.npm/ff4ebef1-mincer-1-3-0.lock
+56 verbose cache add [ 'mocha@^2.2.5', null ]
+57 verbose cache add name=undefined spec="mocha@^2.2.5" args=["mocha@^2.2.5",null]
+58 verbose parsed url { protocol: null,
+58 verbose parsed url   slashes: null,
+58 verbose parsed url   auth: null,
+58 verbose parsed url   host: null,
+58 verbose parsed url   port: null,
+58 verbose parsed url   hostname: null,
+58 verbose parsed url   hash: null,
+58 verbose parsed url   search: null,
+58 verbose parsed url   query: null,
+58 verbose parsed url   pathname: 'mocha@^2.2.5',
+58 verbose parsed url   path: 'mocha@^2.2.5',
+58 verbose parsed url   href: 'mocha@^2.2.5' }
+59 verbose cache add [ 'chai@^3.0.0', null ]
+60 verbose cache add name=undefined spec="chai@^3.0.0" args=["chai@^3.0.0",null]
+61 verbose parsed url { protocol: null,
+61 verbose parsed url   slashes: null,
+61 verbose parsed url   auth: null,
+61 verbose parsed url   host: null,
+61 verbose parsed url   port: null,
+61 verbose parsed url   hostname: null,
+61 verbose parsed url   hash: null,
+61 verbose parsed url   search: null,
+61 verbose parsed url   query: null,
+61 verbose parsed url   pathname: 'chai@^3.0.0',
+61 verbose parsed url   path: 'chai@^3.0.0',
+61 verbose parsed url   href: 'chai@^3.0.0' }
+62 verbose cache add name="bower" spec="latest" args=["bower","latest"]
+63 verbose parsed url { protocol: null,
+63 verbose parsed url   slashes: null,
+63 verbose parsed url   auth: null,
+63 verbose parsed url   host: null,
+63 verbose parsed url   port: null,
+63 verbose parsed url   hostname: null,
+63 verbose parsed url   hash: null,
+63 verbose parsed url   search: null,
+63 verbose parsed url   query: null,
+63 verbose parsed url   pathname: 'latest',
+63 verbose parsed url   path: 'latest',
+63 verbose parsed url   href: 'latest' }
+64 verbose addNamed [ 'bower', 'latest' ]
+65 verbose addNamed [ null, null ]
+66 silly lockFile 09819b10-bower-latest bower@latest
+67 verbose lock bower@latest /Users/van/.npm/09819b10-bower-latest.lock
+68 verbose cache add name="mocha" spec="^2.2.5" args=["mocha","^2.2.5"]
+69 verbose parsed url { protocol: null,
+69 verbose parsed url   slashes: null,
+69 verbose parsed url   auth: null,
+69 verbose parsed url   host: null,
+69 verbose parsed url   port: null,
+69 verbose parsed url   hostname: null,
+69 verbose parsed url   hash: null,
+69 verbose parsed url   search: null,
+69 verbose parsed url   query: null,
+69 verbose parsed url   pathname: '^2.2.5',
+69 verbose parsed url   path: '^2.2.5',
+69 verbose parsed url   href: '^2.2.5' }
+70 verbose addNamed [ 'mocha', '^2.2.5' ]
+71 verbose addNamed [ null, '>=2.2.5-0 <3.0.0-0' ]
+72 silly lockFile cbb9b72e-mocha-2-2-5 mocha@^2.2.5
+73 verbose lock mocha@^2.2.5 /Users/van/.npm/cbb9b72e-mocha-2-2-5.lock
+74 verbose cache add name="chai" spec="^3.0.0" args=["chai","^3.0.0"]
+75 verbose parsed url { protocol: null,
+75 verbose parsed url   slashes: null,
+75 verbose parsed url   auth: null,
+75 verbose parsed url   host: null,
+75 verbose parsed url   port: null,
+75 verbose parsed url   hostname: null,
+75 verbose parsed url   hash: null,
+75 verbose parsed url   search: null,
+75 verbose parsed url   query: null,
+75 verbose parsed url   pathname: '^3.0.0',
+75 verbose parsed url   path: '^3.0.0',
+75 verbose parsed url   href: '^3.0.0' }
+76 verbose addNamed [ 'chai', '^3.0.0' ]
+77 verbose addNamed [ null, '>=3.0.0-0 <4.0.0-0' ]
+78 silly lockFile 49098e9e-chai-3-0-0 chai@^3.0.0
+79 verbose lock chai@^3.0.0 /Users/van/.npm/49098e9e-chai-3-0-0.lock
+80 silly addNameRange { name: 'lodash', range: '>=3.9.3-0 <4.0.0-0', hasData: false }
+81 silly addNameRange { name: 'uglify-js',
+81 silly addNameRange   range: '>=2.4.15-0 <3.0.0-0',
+81 silly addNameRange   hasData: false }
+82 verbose cache add [ 'supertest@^1.0.1', null ]
+83 verbose cache add name=undefined spec="supertest@^1.0.1" args=["supertest@^1.0.1",null]
+84 verbose parsed url { protocol: null,
+84 verbose parsed url   slashes: null,
+84 verbose parsed url   auth: null,
+84 verbose parsed url   host: null,
+84 verbose parsed url   port: null,
+84 verbose parsed url   hostname: null,
+84 verbose parsed url   hash: null,
+84 verbose parsed url   search: null,
+84 verbose parsed url   query: null,
+84 verbose parsed url   pathname: 'supertest@^1.0.1',
+84 verbose parsed url   path: 'supertest@^1.0.1',
+84 verbose parsed url   href: 'supertest@^1.0.1' }
+85 verbose cache add [ 'loopback-testing@^1.1.0', null ]
+86 verbose cache add name=undefined spec="loopback-testing@^1.1.0" args=["loopback-testing@^1.1.0",null]
+87 verbose parsed url { protocol: null,
+87 verbose parsed url   slashes: null,
+87 verbose parsed url   auth: null,
+87 verbose parsed url   host: null,
+87 verbose parsed url   port: null,
+87 verbose parsed url   hostname: null,
+87 verbose parsed url   hash: null,
+87 verbose parsed url   search: null,
+87 verbose parsed url   query: null,
+87 verbose parsed url   pathname: 'loopback-testing@^1.1.0',
+87 verbose parsed url   path: 'loopback-testing@^1.1.0',
+87 verbose parsed url   href: 'loopback-testing@^1.1.0' }
+88 verbose cache add [ 'apihero-ui@git+https://github.com/vancarney/backbone-ui#apihero-ui',
+88 verbose cache add   null ]
+89 verbose cache add name=undefined spec="apihero-ui@git+https://github.com/vancarney/backbone-ui#apihero-ui" args=["apihero-ui@git+https://github.com/vancarney/backbone-ui#apihero-ui",null]
+90 verbose parsed url { protocol: null,
+90 verbose parsed url   slashes: null,
+90 verbose parsed url   auth: null,
+90 verbose parsed url   host: null,
+90 verbose parsed url   port: null,
+90 verbose parsed url   hostname: null,
+90 verbose parsed url   hash: '#apihero-ui',
+90 verbose parsed url   search: null,
+90 verbose parsed url   query: null,
+90 verbose parsed url   pathname: 'apihero-ui@git+https://github.com/vancarney/backbone-ui',
+90 verbose parsed url   path: 'apihero-ui@git+https://github.com/vancarney/backbone-ui',
+90 verbose parsed url   href: 'apihero-ui@git+https://github.com/vancarney/backbone-ui#apihero-ui' }
+91 verbose cache add [ 'docco@latest', null ]
+92 verbose cache add name=undefined spec="docco@latest" args=["docco@latest",null]
+93 verbose parsed url { protocol: null,
+93 verbose parsed url   slashes: null,
+93 verbose parsed url   auth: null,
+93 verbose parsed url   host: null,
+93 verbose parsed url   port: null,
+93 verbose parsed url   hostname: null,
+93 verbose parsed url   hash: null,
+93 verbose parsed url   search: null,
+93 verbose parsed url   query: null,
+93 verbose parsed url   pathname: 'docco@latest',
+93 verbose parsed url   path: 'docco@latest',
+93 verbose parsed url   href: 'docco@latest' }
+94 silly addNameRange { name: 'coffee-script',
+94 silly addNameRange   range: '>=1.9.3-0 <2.0.0-0',
+94 silly addNameRange   hasData: false }
+95 silly addNameRange { name: 'mincer', range: '>=1.3.0-0 <2.0.0-0', hasData: false }
+96 silly addNameRange { name: 'less', range: '>=2.5.1-0 <3.0.0-0', hasData: false }
+97 info addNameTag [ 'bower', 'latest' ]
+98 verbose cache add name="supertest" spec="^1.0.1" args=["supertest","^1.0.1"]
+99 verbose parsed url { protocol: null,
+99 verbose parsed url   slashes: null,
+99 verbose parsed url   auth: null,
+99 verbose parsed url   host: null,
+99 verbose parsed url   port: null,
+99 verbose parsed url   hostname: null,
+99 verbose parsed url   hash: null,
+99 verbose parsed url   search: null,
+99 verbose parsed url   query: null,
+99 verbose parsed url   pathname: '^1.0.1',
+99 verbose parsed url   path: '^1.0.1',
+99 verbose parsed url   href: '^1.0.1' }
+100 verbose addNamed [ 'supertest', '^1.0.1' ]
+101 verbose addNamed [ null, '>=1.0.1-0 <2.0.0-0' ]
+102 silly lockFile 8b25c329-supertest-1-0-1 supertest@^1.0.1
+103 verbose lock supertest@^1.0.1 /Users/van/.npm/8b25c329-supertest-1-0-1.lock
+104 verbose cache add name="loopback-testing" spec="^1.1.0" args=["loopback-testing","^1.1.0"]
+105 verbose parsed url { protocol: null,
+105 verbose parsed url   slashes: null,
+105 verbose parsed url   auth: null,
+105 verbose parsed url   host: null,
+105 verbose parsed url   port: null,
+105 verbose parsed url   hostname: null,
+105 verbose parsed url   hash: null,
+105 verbose parsed url   search: null,
+105 verbose parsed url   query: null,
+105 verbose parsed url   pathname: '^1.1.0',
+105 verbose parsed url   path: '^1.1.0',
+105 verbose parsed url   href: '^1.1.0' }
+106 verbose addNamed [ 'loopback-testing', '^1.1.0' ]
+107 verbose addNamed [ null, '>=1.1.0-0 <2.0.0-0' ]
+108 silly lockFile 974a4ad9-loopback-testing-1-1-0 loopback-testing@^1.1.0
+109 verbose lock loopback-testing@^1.1.0 /Users/van/.npm/974a4ad9-loopback-testing-1-1-0.lock
+110 verbose cache add name="apihero-ui" spec="git+https://github.com/vancarney/backbone-ui#apihero-ui" args=["apihero-ui","git+https://github.com/vancarney/backbone-ui#apihero-ui"]
+111 verbose parsed url { protocol: 'git+https:',
+111 verbose parsed url   slashes: true,
+111 verbose parsed url   auth: null,
+111 verbose parsed url   host: 'github.com',
+111 verbose parsed url   port: null,
+111 verbose parsed url   hostname: 'github.com',
+111 verbose parsed url   hash: '#apihero-ui',
+111 verbose parsed url   search: null,
+111 verbose parsed url   query: null,
+111 verbose parsed url   pathname: '/vancarney/backbone-ui',
+111 verbose parsed url   path: '/vancarney/backbone-ui',
+111 verbose parsed url   href: 'git+https://github.com/vancarney/backbone-ui#apihero-ui' }
+112 silly lockFile 0a23dc31-github-com-vancarney-backbone-ui https://github.com/vancarney/backbone-ui
+113 verbose lock https://github.com/vancarney/backbone-ui /Users/van/.npm/0a23dc31-github-com-vancarney-backbone-ui.lock
+114 verbose cache add name="docco" spec="latest" args=["docco","latest"]
+115 verbose parsed url { protocol: null,
+115 verbose parsed url   slashes: null,
+115 verbose parsed url   auth: null,
+115 verbose parsed url   host: null,
+115 verbose parsed url   port: null,
+115 verbose parsed url   hostname: null,
+115 verbose parsed url   hash: null,
+115 verbose parsed url   search: null,
+115 verbose parsed url   query: null,
+115 verbose parsed url   pathname: 'latest',
+115 verbose parsed url   path: 'latest',
+115 verbose parsed url   href: 'latest' }
+116 verbose addNamed [ 'docco', 'latest' ]
+117 verbose addNamed [ null, null ]
+118 silly lockFile 31ad910a-docco-latest docco@latest
+119 verbose lock docco@latest /Users/van/.npm/31ad910a-docco-latest.lock
+120 silly addNameRange { name: 'mocha', range: '>=2.2.5-0 <3.0.0-0', hasData: false }
+121 silly addNameRange { name: 'chai', range: '>=3.0.0-0 <4.0.0-0', hasData: false }
+122 silly addNameRange { name: 'supertest',
+122 silly addNameRange   range: '>=1.0.1-0 <2.0.0-0',
+122 silly addNameRange   hasData: false }
+123 silly addNameRange { name: 'loopback-testing',
+123 silly addNameRange   range: '>=1.1.0-0 <2.0.0-0',
+123 silly addNameRange   hasData: false }
+124 verbose addRemoteGit [ 'https://github.com/vancarney/backbone-ui', 'apihero-ui' ]
+125 info addNameTag [ 'docco', 'latest' ]
+126 verbose request where is /lodash
+127 verbose request registry https://registry.npmjs.org/
+128 verbose request id 54917797dce89d32
+129 verbose url raw /lodash
+130 verbose url resolving [ 'https://registry.npmjs.org/', './lodash' ]
+131 verbose url resolved https://registry.npmjs.org/lodash
+132 verbose request where is https://registry.npmjs.org/lodash
+133 info trying registry request attempt 1 at 10:11:43
+134 verbose etag "24WA2BZEQ9A8K85MEJPPV4M09"
+135 http GET https://registry.npmjs.org/lodash
+136 verbose request where is /uglify-js
+137 verbose request registry https://registry.npmjs.org/
+138 verbose url raw /uglify-js
+139 verbose url resolving [ 'https://registry.npmjs.org/', './uglify-js' ]
+140 verbose url resolved https://registry.npmjs.org/uglify-js
+141 verbose request where is https://registry.npmjs.org/uglify-js
+142 info trying registry request attempt 1 at 10:11:43
+143 verbose etag "C9BXHCW8QOGFMX9P8CER067V4"
+144 http GET https://registry.npmjs.org/uglify-js
+145 verbose request where is /coffee-script
+146 verbose request registry https://registry.npmjs.org/
+147 verbose url raw /coffee-script
+148 verbose url resolving [ 'https://registry.npmjs.org/', './coffee-script' ]
+149 verbose url resolved https://registry.npmjs.org/coffee-script
+150 verbose request where is https://registry.npmjs.org/coffee-script
+151 info trying registry request attempt 1 at 10:11:43
+152 verbose etag "2D7VB0GAAZDVM7Q3AFE8GKU7B"
+153 http GET https://registry.npmjs.org/coffee-script
+154 verbose request where is /mincer
+155 verbose request registry https://registry.npmjs.org/
+156 verbose url raw /mincer
+157 verbose url resolving [ 'https://registry.npmjs.org/', './mincer' ]
+158 verbose url resolved https://registry.npmjs.org/mincer
+159 verbose request where is https://registry.npmjs.org/mincer
+160 info trying registry request attempt 1 at 10:11:43
+161 verbose etag "7OFHPJDCSJAQI3C4OHBYGTIHL"
+162 http GET https://registry.npmjs.org/mincer
+163 verbose request where is /bower
+164 verbose request registry https://registry.npmjs.org/
+165 verbose url raw /bower
+166 verbose url resolving [ 'https://registry.npmjs.org/', './bower' ]
+167 verbose url resolved https://registry.npmjs.org/bower
+168 verbose request where is https://registry.npmjs.org/bower
+169 info trying registry request attempt 1 at 10:11:43
+170 verbose etag "99ROKBKO7EECA5RGJQMGLHXGA"
+171 http GET https://registry.npmjs.org/bower
+172 verbose request where is /less
+173 verbose request registry https://registry.npmjs.org/
+174 verbose url raw /less
+175 verbose url resolving [ 'https://registry.npmjs.org/', './less' ]
+176 verbose url resolved https://registry.npmjs.org/less
+177 verbose request where is https://registry.npmjs.org/less
+178 info trying registry request attempt 1 at 10:11:44
+179 verbose etag "58QPG42N1XWVJ7N58FRY0K2VE"
+180 http GET https://registry.npmjs.org/less
+181 verbose request where is /mocha
+182 verbose request registry https://registry.npmjs.org/
+183 verbose url raw /mocha
+184 verbose url resolving [ 'https://registry.npmjs.org/', './mocha' ]
+185 verbose url resolved https://registry.npmjs.org/mocha
+186 verbose request where is https://registry.npmjs.org/mocha
+187 info trying registry request attempt 1 at 10:11:44
+188 verbose etag "CP33XHJP8YIBBC48IB5LI8T0Z"
+189 http GET https://registry.npmjs.org/mocha
+190 verbose request where is /chai
+191 verbose request registry https://registry.npmjs.org/
+192 verbose url raw /chai
+193 verbose url resolving [ 'https://registry.npmjs.org/', './chai' ]
+194 verbose url resolved https://registry.npmjs.org/chai
+195 verbose request where is https://registry.npmjs.org/chai
+196 info trying registry request attempt 1 at 10:11:44
+197 verbose etag "D8SXT2F9HOSPHJCTDER6MRBII"
+198 http GET https://registry.npmjs.org/chai
+199 verbose request where is /docco
+200 verbose request registry https://registry.npmjs.org/
+201 verbose url raw /docco
+202 verbose url resolving [ 'https://registry.npmjs.org/', './docco' ]
+203 verbose url resolved https://registry.npmjs.org/docco
+204 verbose request where is https://registry.npmjs.org/docco
+205 info trying registry request attempt 1 at 10:11:44
+206 verbose etag "E9RWS12314FWCL99MHZKHT94U"
+207 http GET https://registry.npmjs.org/docco
+208 verbose request where is /supertest
+209 verbose request registry https://registry.npmjs.org/
+210 verbose url raw /supertest
+211 verbose url resolving [ 'https://registry.npmjs.org/', './supertest' ]
+212 verbose url resolved https://registry.npmjs.org/supertest
+213 verbose request where is https://registry.npmjs.org/supertest
+214 info trying registry request attempt 1 at 10:11:44
+215 verbose etag "CUZ9DSIP7YIF5EAI9U4B5SCGJ"
+216 http GET https://registry.npmjs.org/supertest
+217 verbose request where is /loopback-testing
+218 verbose request registry https://registry.npmjs.org/
+219 verbose url raw /loopback-testing
+220 verbose url resolving [ 'https://registry.npmjs.org/', './loopback-testing' ]
+221 verbose url resolved https://registry.npmjs.org/loopback-testing
+222 verbose request where is https://registry.npmjs.org/loopback-testing
+223 info trying registry request attempt 1 at 10:11:44
+224 verbose etag "1DG8YB4L4CMX8WX9GELJ1D9F9"
+225 http GET https://registry.npmjs.org/loopback-testing
+226 http 304 https://registry.npmjs.org/uglify-js
+227 silly registry.get cb [ 304,
+227 silly registry.get   { date: 'Sun, 28 Jun 2015 17:11:44 GMT',
+227 silly registry.get     via: '1.1 varnish',
+227 silly registry.get     'cache-control': 'max-age=60',
+227 silly registry.get     etag: '"C9BXHCW8QOGFMX9P8CER067V4"',
+227 silly registry.get     age: '42',
+227 silly registry.get     connection: 'keep-alive',
+227 silly registry.get     'x-served-by': 'cache-sjc3127-SJC',
+227 silly registry.get     'x-cache': 'HIT',
+227 silly registry.get     'x-cache-hits': '1',
+227 silly registry.get     'x-timer': 'S1435511504.120889,VS0,VE0',
+227 silly registry.get     vary: 'Accept' } ]
+228 verbose etag https://registry.npmjs.org/uglify-js from cache
+229 http 304 https://registry.npmjs.org/lodash
+230 silly registry.get cb [ 304,
+230 silly registry.get   { date: 'Sun, 28 Jun 2015 17:11:44 GMT',
+230 silly registry.get     via: '1.1 varnish',
+230 silly registry.get     'cache-control': 'max-age=60',
+230 silly registry.get     etag: '"24WA2BZEQ9A8K85MEJPPV4M09"',
+230 silly registry.get     age: '55',
+230 silly registry.get     connection: 'keep-alive',
+230 silly registry.get     'x-served-by': 'cache-sjc3125-SJC',
+230 silly registry.get     'x-cache': 'HIT',
+230 silly registry.get     'x-cache-hits': '1',
+230 silly registry.get     'x-timer': 'S1435511504.120848,VS0,VE0',
+230 silly registry.get     vary: 'Accept' } ]
+231 verbose etag https://registry.npmjs.org/lodash from cache
+232 silly addNameRange number 2 { name: 'uglify-js',
+232 silly addNameRange   range: '>=2.4.15-0 <3.0.0-0',
+232 silly addNameRange   hasData: true }
+233 silly addNameRange versions [ 'uglify-js',
+233 silly addNameRange   [ '0.0.1',
+233 silly addNameRange     '0.0.2',
+233 silly addNameRange     '0.0.3',
+233 silly addNameRange     '0.0.4',
+233 silly addNameRange     '0.0.5',
+233 silly addNameRange     '1.0.1',
+233 silly addNameRange     '1.0.2',
+233 silly addNameRange     '1.0.3',
+233 silly addNameRange     '1.0.4',
+233 silly addNameRange     '1.0.5',
+233 silly addNameRange     '1.0.6',
+233 silly addNameRange     '1.0.7',
+233 silly addNameRange     '1.1.0',
+233 silly addNameRange     '1.1.1',
+233 silly addNameRange     '1.2.0',
+233 silly addNameRange     '1.2.1',
+233 silly addNameRange     '1.2.2',
+233 silly addNameRange     '1.2.3',
+233 silly addNameRange     '1.2.4',
+233 silly addNameRange     '1.2.5',
+233 silly addNameRange     '1.2.6',
+233 silly addNameRange     '1.3.0',
+233 silly addNameRange     '1.3.1',
+233 silly addNameRange     '1.3.2',
+233 silly addNameRange     '1.3.3',
+233 silly addNameRange     '1.3.4',
+233 silly addNameRange     '2.2.0',
+233 silly addNameRange     '2.2.1',
+233 silly addNameRange     '2.2.2',
+233 silly addNameRange     '2.2.3',
+233 silly addNameRange     '2.2.4',
+233 silly addNameRange     '2.2.5',
+233 silly addNameRange     '2.3.0',
+233 silly addNameRange     '2.3.1',
+233 silly addNameRange     '2.3.2',
+233 silly addNameRange     '2.3.3',
+233 silly addNameRange     '2.3.4',
+233 silly addNameRange     '2.3.5',
+233 silly addNameRange     '2.3.6',
+233 silly addNameRange     '1.3.5',
+233 silly addNameRange     '2.4.0',
+233 silly addNameRange     '2.4.1',
+233 silly addNameRange     '2.4.2',
+233 silly addNameRange     '2.4.3',
+233 silly addNameRange     '2.4.4',
+233 silly addNameRange     '2.4.5',
+233 silly addNameRange     '2.4.6',
+233 silly addNameRange     '2.4.7',
+233 silly addNameRange     '2.4.8',
+233 silly addNameRange     '2.4.9',
+233 silly addNameRange     '2.4.10',
+233 silly addNameRange     '2.4.11',
+233 silly addNameRange     '2.4.12',
+233 silly addNameRange     '2.4.13',
+233 silly addNameRange     '2.4.14',
+233 silly addNameRange     '2.4.15',
+233 silly addNameRange     '2.4.16',
+233 silly addNameRange     '2.4.17',
+233 silly addNameRange     '2.4.18',
+233 silly addNameRange     '2.4.19',
+233 silly addNameRange     '2.4.20',
+233 silly addNameRange     '2.4.21',
+233 silly addNameRange     '2.4.22',
+233 silly addNameRange     '2.4.23' ] ]
+234 verbose addNamed [ 'uglify-js', '2.4.23' ]
+235 verbose addNamed [ '2.4.23', '2.4.23' ]
+236 silly lockFile 5f3b4194-uglify-js-2-4-23 uglify-js@2.4.23
+237 verbose lock uglify-js@2.4.23 /Users/van/.npm/5f3b4194-uglify-js-2-4-23.lock
+238 silly addNameRange number 2 { name: 'lodash', range: '>=3.9.3-0 <4.0.0-0', hasData: true }
+239 silly addNameRange versions [ 'lodash',
+239 silly addNameRange   [ '0.1.0',
+239 silly addNameRange     '0.2.0',
+239 silly addNameRange     '0.2.1',
+239 silly addNameRange     '0.2.2',
+239 silly addNameRange     '0.3.0',
+239 silly addNameRange     '0.3.1',
+239 silly addNameRange     '0.3.2',
+239 silly addNameRange     '0.4.0',
+239 silly addNameRange     '0.4.1',
+239 silly addNameRange     '0.4.2',
+239 silly addNameRange     '0.5.0-rc.1',
+239 silly addNameRange     '0.5.0',
+239 silly addNameRange     '0.5.1',
+239 silly addNameRange     '0.5.2',
+239 silly addNameRange     '0.6.0',
+239 silly addNameRange     '0.6.1',
+239 silly addNameRange     '0.7.0',
+239 silly addNameRange     '0.8.0',
+239 silly addNameRange     '0.8.1',
+239 silly addNameRange     '0.8.2',
+239 silly addNameRange     '0.9.0',
+239 silly addNameRange     '0.9.1',
+239 silly addNameRange     '0.9.2',
+239 silly addNameRange     '0.10.0',
+239 silly addNameRange     '1.0.0-rc.1',
+239 silly addNameRange     '1.0.0-rc.2',
+239 silly addNameRange     '1.0.0-rc.3',
+239 silly addNameRange     '1.0.0',
+239 silly addNameRange     '1.0.1',
+239 silly addNameRange     '1.1.0',
+239 silly addNameRange     '1.1.1',
+239 silly addNameRange     '1.2.0',
+239 silly addNameRange     '1.2.1',
+239 silly addNameRange     '1.3.0',
+239 silly addNameRange     '1.3.1',
+239 silly addNameRange     '2.0.0',
+239 silly addNameRange     '2.1.0',
+239 silly addNameRange     '2.2.0',
+239 silly addNameRange     '2.2.1',
+239 silly addNameRange     '2.3.0',
+239 silly addNameRange     '2.4.0',
+239 silly addNameRange     '2.4.1',
+239 silly addNameRange     '3.0.0',
+239 silly addNameRange     '3.0.1',
+239 silly addNameRange     '3.1.0',
+239 silly addNameRange     '3.2.0',
+239 silly addNameRange     '3.3.0',
+239 silly addNameRange     '3.3.1',
+239 silly addNameRange     '3.4.0',
+239 silly addNameRange     '3.5.0',
+239 silly addNameRange     '3.6.0',
+239 silly addNameRange     '1.0.2',
+239 silly addNameRange     '3.7.0',
+239 silly addNameRange     '2.4.2',
+239 silly addNameRange     '3.8.0',
+239 silly addNameRange     '3.9.0',
+239 silly addNameRange     '3.9.1',
+239 silly addNameRange     '3.9.2',
+239 silly addNameRange     '3.9.3' ] ]
+240 verbose addNamed [ 'lodash', '3.9.3' ]
+241 verbose addNamed [ '3.9.3', '3.9.3' ]
+242 silly lockFile 7317860f-lodash-3-9-3 lodash@3.9.3
+243 verbose lock lodash@3.9.3 /Users/van/.npm/7317860f-lodash-3-9-3.lock
+244 silly lockFile 7317860f-lodash-3-9-3 lodash@3.9.3
+245 silly lockFile 7317860f-lodash-3-9-3 lodash@3.9.3
+246 silly lockFile 5f3b4194-uglify-js-2-4-23 uglify-js@2.4.23
+247 silly lockFile 5f3b4194-uglify-js-2-4-23 uglify-js@2.4.23
+248 silly lockFile 890b122f-lodash-3-9-3 lodash@^3.9.3
+249 silly lockFile 890b122f-lodash-3-9-3 lodash@^3.9.3
+250 silly lockFile cc3ce3f3-uglify-js-2-4-15 uglify-js@^2.4.15
+251 silly lockFile cc3ce3f3-uglify-js-2-4-15 uglify-js@^2.4.15
+252 http 304 https://registry.npmjs.org/less
+253 silly registry.get cb [ 304,
+253 silly registry.get   { date: 'Sun, 28 Jun 2015 17:11:44 GMT',
+253 silly registry.get     via: '1.1 varnish',
+253 silly registry.get     'cache-control': 'max-age=60',
+253 silly registry.get     etag: '"58QPG42N1XWVJ7N58FRY0K2VE"',
+253 silly registry.get     age: '36',
+253 silly registry.get     connection: 'keep-alive',
+253 silly registry.get     'x-served-by': 'cache-sjc3127-SJC',
+253 silly registry.get     'x-cache': 'HIT',
+253 silly registry.get     'x-cache-hits': '1',
+253 silly registry.get     'x-timer': 'S1435511504.143741,VS0,VE0',
+253 silly registry.get     vary: 'Accept' } ]
+254 verbose etag https://registry.npmjs.org/less from cache
+255 silly addNameRange number 2 { name: 'less', range: '>=2.5.1-0 <3.0.0-0', hasData: true }
+256 silly addNameRange versions [ 'less',
+256 silly addNameRange   [ '1.0.10',
+256 silly addNameRange     '1.0.11',
+256 silly addNameRange     '1.0.14',
+256 silly addNameRange     '1.0.18',
+256 silly addNameRange     '1.0.19',
+256 silly addNameRange     '1.0.21',
+256 silly addNameRange     '1.0.32',
+256 silly addNameRange     '1.0.36',
+256 silly addNameRange     '1.0.5',
+256 silly addNameRange     '1.0.40',
+256 silly addNameRange     '1.0.41',
+256 silly addNameRange     '1.0.44',
+256 silly addNameRange     '1.1.0',
+256 silly addNameRange     '1.1.1',
+256 silly addNameRange     '1.1.2',
+256 silly addNameRange     '1.1.4',
+256 silly addNameRange     '1.1.5',
+256 silly addNameRange     '1.1.6',
+256 silly addNameRange     '1.2.0',
+256 silly addNameRange     '1.2.1',
+256 silly addNameRange     '1.2.2',
+256 silly addNameRange     '1.3.0',
+256 silly addNameRange     '1.3.1',
+256 silly addNameRange     '1.3.2',
+256 silly addNameRange     '1.3.3',
+256 silly addNameRange     '1.4.0-b1',
+256 silly addNameRange     '1.4.0-b2',
+256 silly addNameRange     '1.4.0-b3',
+256 silly addNameRange     '1.4.0-b4',
+256 silly addNameRange     '1.4.0',
+256 silly addNameRange     '1.4.1',
+256 silly addNameRange     '1.4.2',
+256 silly addNameRange     '1.5.0-b1',
+256 silly addNameRange     '1.5.0-b2',
+256 silly addNameRange     '1.5.0-b3',
+256 silly addNameRange     '1.5.0-b4',
+256 silly addNameRange     '1.5.0',
+256 silly addNameRange     '1.5.1',
+256 silly addNameRange     '1.6.0',
+256 silly addNameRange     '1.6.1',
+256 silly addNameRange     '1.6.2',
+256 silly addNameRange     '1.6.3',
+256 silly addNameRange     '1.7.0',
+256 silly addNameRange     '1.7.1',
+256 silly addNameRange     '1.7.3',
+256 silly addNameRange     '1.7.4',
+256 silly addNameRange     '1.7.5',
+256 silly addNameRange     '2.0.0-b1',
+256 silly addNameRange     '2.0.0-b2',
+256 silly addNameRange     '2.0.0-b3',
+256 silly addNameRange     '2.0.0',
+256 silly addNameRange     '2.1.0',
+256 silly addNameRange     '2.1.1',
+256 silly addNameRange     '2.1.2',
+256 silly addNameRange     '2.2.0',
+256 silly addNameRange     '2.3.0',
+256 silly addNameRange     '2.3.1',
+256 silly addNameRange     '2.4.0',
+256 silly addNameRange     '2.5.0',
+256 silly addNameRange     '2.5.1' ] ]
+257 verbose addNamed [ 'less', '2.5.1' ]
+258 verbose addNamed [ '2.5.1', '2.5.1' ]
+259 silly lockFile 1cb10dbf-less-2-5-1 less@2.5.1
+260 verbose lock less@2.5.1 /Users/van/.npm/1cb10dbf-less-2-5-1.lock
+261 silly lockFile 1cb10dbf-less-2-5-1 less@2.5.1
+262 silly lockFile 1cb10dbf-less-2-5-1 less@2.5.1
+263 silly lockFile a1f81b6b-less-2-5-1 less@^2.5.1
+264 silly lockFile a1f81b6b-less-2-5-1 less@^2.5.1
+265 http 304 https://registry.npmjs.org/mincer
+266 silly registry.get cb [ 304,
+266 silly registry.get   { date: 'Sun, 28 Jun 2015 17:11:44 GMT',
+266 silly registry.get     via: '1.1 varnish',
+266 silly registry.get     'cache-control': 'max-age=60',
+266 silly registry.get     etag: '"7OFHPJDCSJAQI3C4OHBYGTIHL"',
+266 silly registry.get     age: '0',
+266 silly registry.get     connection: 'keep-alive',
+266 silly registry.get     'x-served-by': 'cache-sjc3133-SJC',
+266 silly registry.get     'x-cache': 'HIT',
+266 silly registry.get     'x-cache-hits': '1',
+266 silly registry.get     'x-timer': 'S1435511504.113759,VS0,VE151',
+266 silly registry.get     vary: 'Accept' } ]
+267 verbose etag https://registry.npmjs.org/mincer from cache
+268 silly addNameRange number 2 { name: 'mincer', range: '>=1.3.0-0 <2.0.0-0', hasData: true }
+269 silly addNameRange versions [ 'mincer',
+269 silly addNameRange   [ '0.1.0',
+269 silly addNameRange     '0.1.1',
+269 silly addNameRange     '0.1.2',
+269 silly addNameRange     '0.1.3',
+269 silly addNameRange     '0.1.4',
+269 silly addNameRange     '0.2.0',
+269 silly addNameRange     '0.2.1',
+269 silly addNameRange     '0.2.2',
+269 silly addNameRange     '0.2.3',
+269 silly addNameRange     '0.2.4',
+269 silly addNameRange     '0.2.5',
+269 silly addNameRange     '0.2.6',
+269 silly addNameRange     '0.2.7',
+269 silly addNameRange     '0.3.0',
+269 silly addNameRange     '0.3.1',
+269 silly addNameRange     '0.4.0',
+269 silly addNameRange     '0.4.1',
+269 silly addNameRange     '0.4.2',
+269 silly addNameRange     '0.4.3',
+269 silly addNameRange     '0.4.4',
+269 silly addNameRange     '0.4.5',
+269 silly addNameRange     '0.4.6',
+269 silly addNameRange     '0.5.0',
+269 silly addNameRange     '0.5.1',
+269 silly addNameRange     '0.5.2',
+269 silly addNameRange     '0.5.3',
+269 silly addNameRange     '0.5.4',
+269 silly addNameRange     '0.5.5',
+269 silly addNameRange     '0.5.6',
+269 silly addNameRange     '0.5.7',
+269 silly addNameRange     '0.5.8',
+269 silly addNameRange     '0.5.9',
+269 silly addNameRange     '0.5.10',
+269 silly addNameRange     '0.5.11',
+269 silly addNameRange     '0.5.12',
+269 silly addNameRange     '0.5.13',
+269 silly addNameRange     '1.0.0',
+269 silly addNameRange     '1.0.1',
+269 silly addNameRange     '1.0.2',
+269 silly addNameRange     '1.0.3',
+269 silly addNameRange     '1.0.4',
+269 silly addNameRange     '1.0.5',
+269 silly addNameRange     '1.1.0',
+269 silly addNameRange     '1.1.1',
+269 silly addNameRange     '1.1.2',
+269 silly addNameRange     '1.1.3',
+269 silly addNameRange     '1.2.0',
+269 silly addNameRange     '1.2.1',
+269 silly addNameRange     '1.2.2',
+269 silly addNameRange     '1.2.3',
+269 silly addNameRange     '1.2.4',
+269 silly addNameRange     '1.2.5',
+269 silly addNameRange     '1.3.0' ] ]
+270 verbose addNamed [ 'mincer', '1.3.0' ]
+271 verbose addNamed [ '1.3.0', '1.3.0' ]
+272 silly lockFile bcdd9c3b-mincer-1-3-0 mincer@1.3.0
+273 verbose lock mincer@1.3.0 /Users/van/.npm/bcdd9c3b-mincer-1-3-0.lock
+274 silly lockFile bcdd9c3b-mincer-1-3-0 mincer@1.3.0
+275 silly lockFile bcdd9c3b-mincer-1-3-0 mincer@1.3.0
+276 silly lockFile ff4ebef1-mincer-1-3-0 mincer@^1.3.0
+277 silly lockFile ff4ebef1-mincer-1-3-0 mincer@^1.3.0
+278 http 200 https://registry.npmjs.org/bower
+279 silly registry.get cb [ 200,
+279 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+279 silly registry.get     etag: '"EXMI99QUQ4G9JF8M0AB6UVSTR"',
+279 silly registry.get     'content-type': 'application/json',
+279 silly registry.get     'cache-control': 'max-age=60',
+279 silly registry.get     'content-length': '112463',
+279 silly registry.get     'accept-ranges': 'bytes',
+279 silly registry.get     date: 'Sun, 28 Jun 2015 17:11:44 GMT',
+279 silly registry.get     via: '1.1 varnish',
+279 silly registry.get     age: '15',
+279 silly registry.get     connection: 'keep-alive',
+279 silly registry.get     'x-served-by': 'cache-sjc3133-SJC',
+279 silly registry.get     'x-cache': 'HIT',
+279 silly registry.get     'x-cache-hits': '1',
+279 silly registry.get     'x-timer': 'S1435511504.133970,VS0,VE0',
+279 silly registry.get     vary: 'Accept' } ]
+280 http 304 https://registry.npmjs.org/docco
+281 silly registry.get cb [ 304,
+281 silly registry.get   { date: 'Sun, 28 Jun 2015 17:11:44 GMT',
+281 silly registry.get     via: '1.1 varnish',
+281 silly registry.get     'cache-control': 'max-age=60',
+281 silly registry.get     etag: '"E9RWS12314FWCL99MHZKHT94U"',
+281 silly registry.get     age: '0',
+281 silly registry.get     connection: 'keep-alive',
+281 silly registry.get     'x-served-by': 'cache-sjc3133-SJC',
+281 silly registry.get     'x-cache': 'MISS',
+281 silly registry.get     'x-cache-hits': '0',
+281 silly registry.get     'x-timer': 'S1435511504.289957,VS0,VE158',
+281 silly registry.get     vary: 'Accept' } ]
+282 verbose etag https://registry.npmjs.org/docco from cache
+283 verbose addNamed [ 'docco', '0.7.0' ]
+284 verbose addNamed [ '0.7.0', '0.7.0' ]
+285 silly lockFile 3651ee2f-docco-0-7-0 docco@0.7.0
+286 verbose lock docco@0.7.0 /Users/van/.npm/3651ee2f-docco-0-7-0.lock
+287 verbose addNamed [ 'bower', '1.4.1' ]
+288 verbose addNamed [ '1.4.1', '1.4.1' ]
+289 silly lockFile 185f46c0-bower-1-4-1 bower@1.4.1
+290 verbose lock bower@1.4.1 /Users/van/.npm/185f46c0-bower-1-4-1.lock
+291 silly lockFile 04dcb06b--npmjs-org-bower-bower-1-4-1-tgz https://registry.npmjs.org/bower/-/bower-1.4.1.tgz
+292 verbose lock https://registry.npmjs.org/bower/-/bower-1.4.1.tgz /Users/van/.npm/04dcb06b--npmjs-org-bower-bower-1-4-1-tgz.lock
+293 verbose addRemoteTarball [ 'https://registry.npmjs.org/bower/-/bower-1.4.1.tgz',
+293 verbose addRemoteTarball   'a18be39d030792754f30f1c5b32d37b0156ba8dd' ]
+294 silly lockFile 3651ee2f-docco-0-7-0 docco@0.7.0
+295 silly lockFile 3651ee2f-docco-0-7-0 docco@0.7.0
+296 silly lockFile 31ad910a-docco-latest docco@latest
+297 silly lockFile 31ad910a-docco-latest docco@latest
+298 info retry fetch attempt 1 at 10:11:44
+299 verbose fetch to= /var/folders/qs/fz2wcv9527dddw1cmwc7yqwc0000gn/T/npm-56448-p2dpauUo/registry.npmjs.org/bower/-/bower-1.4.1.tgz
+300 http GET https://registry.npmjs.org/bower/-/bower-1.4.1.tgz
+301 http 304 https://registry.npmjs.org/coffee-script
+302 silly registry.get cb [ 304,
+302 silly registry.get   { date: 'Sun, 28 Jun 2015 17:11:44 GMT',
+302 silly registry.get     via: '1.1 varnish',
+302 silly registry.get     'cache-control': 'max-age=60',
+302 silly registry.get     etag: '"2D7VB0GAAZDVM7Q3AFE8GKU7B"',
+302 silly registry.get     age: '0',
+302 silly registry.get     connection: 'keep-alive',
+302 silly registry.get     'x-served-by': 'cache-sjc3129-SJC',
+302 silly registry.get     'x-cache': 'HIT',
+302 silly registry.get     'x-cache-hits': '1',
+302 silly registry.get     'x-timer': 'S1435511504.130111,VS0,VE345',
+302 silly registry.get     vary: 'Accept' } ]
+303 verbose etag https://registry.npmjs.org/coffee-script from cache
+304 silly addNameRange number 2 { name: 'coffee-script',
+304 silly addNameRange   range: '>=1.9.3-0 <2.0.0-0',
+304 silly addNameRange   hasData: true }
+305 silly addNameRange versions [ 'coffee-script',
+305 silly addNameRange   [ '0.7.0',
+305 silly addNameRange     '0.7.1',
+305 silly addNameRange     '0.7.2',
+305 silly addNameRange     '0.9.0',
+305 silly addNameRange     '0.9.1',
+305 silly addNameRange     '0.9.2',
+305 silly addNameRange     '0.9.3',
+305 silly addNameRange     '0.9.4',
+305 silly addNameRange     '0.9.5',
+305 silly addNameRange     '0.9.6',
+305 silly addNameRange     '1.0.0',
+305 silly addNameRange     '1.0.1',
+305 silly addNameRange     '1.1.0',
+305 silly addNameRange     '1.1.1',
+305 silly addNameRange     '1.1.2',
+305 silly addNameRange     '1.1.3',
+305 silly addNameRange     '1.2.0',
+305 silly addNameRange     '1.3.0',
+305 silly addNameRange     '1.3.1',
+305 silly addNameRange     '1.3.2',
+305 silly addNameRange     '1.3.3',
+305 silly addNameRange     '1.4.0',
+305 silly addNameRange     '1.5.0',
+305 silly addNameRange     '1.6.0',
+305 silly addNameRange     '1.6.1',
+305 silly addNameRange     '1.6.2',
+305 silly addNameRange     '1.6.3',
+305 silly addNameRange     '1.7.0',
+305 silly addNameRange     '1.7.1',
+305 silly addNameRange     '1.8.0',
+305 silly addNameRange     '1.9.0',
+305 silly addNameRange     '1.9.1',
+305 silly addNameRange     '1.9.2',
+305 silly addNameRange     '1.9.3' ] ]
+306 verbose addNamed [ 'coffee-script', '1.9.3' ]
+307 verbose addNamed [ '1.9.3', '1.9.3' ]
+308 silly lockFile 81d6d09f-coffee-script-1-9-3 coffee-script@1.9.3
+309 verbose lock coffee-script@1.9.3 /Users/van/.npm/81d6d09f-coffee-script-1-9-3.lock
+310 silly lockFile 81d6d09f-coffee-script-1-9-3 coffee-script@1.9.3
+311 silly lockFile 81d6d09f-coffee-script-1-9-3 coffee-script@1.9.3
+312 silly lockFile 5d8f8add-coffee-script-1-9-3 coffee-script@^1.9.3
+313 silly lockFile 5d8f8add-coffee-script-1-9-3 coffee-script@^1.9.3
+314 http 304 https://registry.npmjs.org/mocha
+315 silly registry.get cb [ 304,
+315 silly registry.get   { date: 'Sun, 28 Jun 2015 17:11:44 GMT',
+315 silly registry.get     via: '1.1 varnish',
+315 silly registry.get     'cache-control': 'max-age=60',
+315 silly registry.get     etag: '"CP33XHJP8YIBBC48IB5LI8T0Z"',
+315 silly registry.get     age: '0',
+315 silly registry.get     connection: 'keep-alive',
+315 silly registry.get     'x-served-by': 'cache-sjc3125-SJC',
+315 silly registry.get     'x-cache': 'HIT',
+315 silly registry.get     'x-cache-hits': '1',
+315 silly registry.get     'x-timer': 'S1435511504.143432,VS0,VE350',
+315 silly registry.get     vary: 'Accept' } ]
+316 verbose etag https://registry.npmjs.org/mocha from cache
+317 silly addNameRange number 2 { name: 'mocha', range: '>=2.2.5-0 <3.0.0-0', hasData: true }
+318 silly addNameRange versions [ 'mocha',
+318 silly addNameRange   [ '0.0.1-alpha1',
+318 silly addNameRange     '0.0.1-alpha2',
+318 silly addNameRange     '0.0.1-alpha3',
+318 silly addNameRange     '0.0.1-alpha4',
+318 silly addNameRange     '0.0.1-alpha5',
+318 silly addNameRange     '0.0.1-alpha6',
+318 silly addNameRange     '0.0.1',
+318 silly addNameRange     '0.0.2',
+318 silly addNameRange     '0.0.3',
+318 silly addNameRange     '0.0.4',
+318 silly addNameRange     '0.0.5',
+318 silly addNameRange     '0.0.6',
+318 silly addNameRange     '0.0.7',
+318 silly addNameRange     '0.0.8',
+318 silly addNameRange     '0.1.0',
+318 silly addNameRange     '0.2.0',
+318 silly addNameRange     '0.3.0',
+318 silly addNameRange     '0.3.1',
+318 silly addNameRange     '0.3.2',
+318 silly addNameRange     '0.3.3',
+318 silly addNameRange     '0.3.4',
+318 silly addNameRange     '0.3.6',
+318 silly addNameRange     '0.4.0',
+318 silly addNameRange     '0.5.0',
+318 silly addNameRange     '0.6.0',
+318 silly addNameRange     '0.7.0',
+318 silly addNameRange     '0.7.1',
+318 silly addNameRange     '0.8.0',
+318 silly addNameRange     '0.8.1',
+318 silly addNameRange     '0.9.0',
+318 silly addNameRange     '0.10.0',
+318 silly addNameRange     '0.10.1',
+318 silly addNameRange     '0.10.2',
+318 silly addNameRange     '0.11.0',
+318 silly addNameRange     '0.12.0',
+318 silly addNameRange     '0.12.1',
+318 silly addNameRange     '0.13.0',
+318 silly addNameRange     '0.14.0',
+318 silly addNameRange     '0.14.1',
+318 silly addNameRange     '1.0.0',
+318 silly addNameRange     '1.0.1',
+318 silly addNameRange     '1.0.2',
+318 silly addNameRange     '1.0.3',
+318 silly addNameRange     '1.1.0',
+318 silly addNameRange     '1.2.0',
+318 silly addNameRange     '1.2.1',
+318 silly addNameRange     '1.2.2',
+318 silly addNameRange     '1.3.0',
+318 silly addNameRange     '1.3.1',
+318 silly addNameRange     '1.3.2',
+318 silly addNameRange     '1.4.0',
+318 silly addNameRange     '1.4.1',
+318 silly addNameRange     '1.4.2',
+318 silly addNameRange     '1.4.3',
+318 silly addNameRange     '1.5.0',
+318 silly addNameRange     '1.6.0',
+318 silly addNameRange     '1.7.0',
+318 silly addNameRange     '1.7.1',
+318 silly addNameRange     '1.7.2',
+318 silly addNameRange     '1.7.3',
+318 silly addNameRange     '1.7.4',
+318 silly addNameRange     '1.8.0',
+318 silly addNameRange     '1.8.1',
+318 silly addNameRange     '1.8.2',
+318 silly addNameRange     '1.9.0',
+318 silly addNameRange     '1.10.0',
+318 silly addNameRange     '1.11.0',
+318 silly addNameRange     '1.12.0',
+318 silly addNameRange     '1.12.1',
+318 silly addNameRange     '1.13.0',
+318 silly addNameRange     '1.14.0',
+318 silly addNameRange     '1.15.0',
+318 silly addNameRange     '1.15.1',
+318 silly addNameRange     '1.16.0',
+318 silly addNameRange     '1.16.1',
+318 silly addNameRange     '1.16.2',
+318 silly addNameRange     '1.17.0',
+318 silly addNameRange     '1.17.1',
+318 silly addNameRange     '1.18.0',
+318 silly addNameRange     '1.18.1',
+318 silly addNameRange     '1.18.2',
+318 silly addNameRange     '1.19.0',
+318 silly addNameRange     '1.20.0',
+318 silly addNameRange     '1.20.1',
+318 silly addNameRange     '1.21.0',
+318 silly addNameRange     '1.21.1',
+318 silly addNameRange     '1.21.2',
+318 silly addNameRange     '1.21.3',
+318 silly addNameRange     '1.21.4',
+318 silly addNameRange     '1.21.5',
+318 silly addNameRange     '2.0.0',
+318 silly addNameRange     '2.0.1',
+318 silly addNameRange     '2.1.0',
+318 silly addNameRange     '2.2.0',
+318 silly addNameRange     '2.2.1',
+318 silly addNameRange     '2.2.3',
+318 silly addNameRange     '2.2.4',
+318 silly addNameRange     '2.2.5' ] ]
+319 verbose addNamed [ 'mocha', '2.2.5' ]
+320 verbose addNamed [ '2.2.5', '2.2.5' ]
+321 silly lockFile 7cbd0d39-mocha-2-2-5 mocha@2.2.5
+322 verbose lock mocha@2.2.5 /Users/van/.npm/7cbd0d39-mocha-2-2-5.lock
+323 silly lockFile 7cbd0d39-mocha-2-2-5 mocha@2.2.5
+324 silly lockFile 7cbd0d39-mocha-2-2-5 mocha@2.2.5
+325 silly lockFile cbb9b72e-mocha-2-2-5 mocha@^2.2.5
+326 silly lockFile cbb9b72e-mocha-2-2-5 mocha@^2.2.5
+327 http 304 https://registry.npmjs.org/chai
+328 silly registry.get cb [ 304,
+328 silly registry.get   { date: 'Sun, 28 Jun 2015 17:11:44 GMT',
+328 silly registry.get     via: '1.1 varnish',
+328 silly registry.get     'cache-control': 'max-age=60',
+328 silly registry.get     etag: '"D8SXT2F9HOSPHJCTDER6MRBII"',
+328 silly registry.get     age: '0',
+328 silly registry.get     connection: 'keep-alive',
+328 silly registry.get     'x-served-by': 'cache-sjc3127-SJC',
+328 silly registry.get     'x-cache': 'HIT',
+328 silly registry.get     'x-cache-hits': '1',
+328 silly registry.get     'x-timer': 'S1435511504.175741,VS0,VE348',
+328 silly registry.get     vary: 'Accept' } ]
+329 verbose etag https://registry.npmjs.org/chai from cache
+330 silly addNameRange number 2 { name: 'chai', range: '>=3.0.0-0 <4.0.0-0', hasData: true }
+331 silly addNameRange versions [ 'chai',
+331 silly addNameRange   [ '0.0.1',
+331 silly addNameRange     '0.0.2',
+331 silly addNameRange     '0.1.0',
+331 silly addNameRange     '0.1.1',
+331 silly addNameRange     '0.1.2',
+331 silly addNameRange     '0.1.3',
+331 silly addNameRange     '0.1.4',
+331 silly addNameRange     '0.1.5',
+331 silly addNameRange     '0.1.6',
+331 silly addNameRange     '0.1.7',
+331 silly addNameRange     '0.2.0',
+331 silly addNameRange     '0.2.1',
+331 silly addNameRange     '0.2.2',
+331 silly addNameRange     '0.2.3',
+331 silly addNameRange     '0.2.4',
+331 silly addNameRange     '0.3.0',
+331 silly addNameRange     '0.3.1',
+331 silly addNameRange     '0.3.2',
+331 silly addNameRange     '0.3.3',
+331 silly addNameRange     '0.3.4',
+331 silly addNameRange     '0.4.0',
+331 silly addNameRange     '0.4.1',
+331 silly addNameRange     '0.4.2',
+331 silly addNameRange     '0.5.0',
+331 silly addNameRange     '0.5.1',
+331 silly addNameRange     '0.5.2',
+331 silly addNameRange     '0.5.3',
+331 silly addNameRange     '1.0.0',
+331 silly addNameRange     '1.0.1',
+331 silly addNameRange     '1.0.2',
+331 silly addNameRange     '1.0.3',
+331 silly addNameRange     '1.0.4',
+331 silly addNameRange     '1.1.0',
+331 silly addNameRange     '1.1.1',
+331 silly addNameRange     '1.2.0',
+331 silly addNameRange     '1.3.0',
+331 silly addNameRange     '1.4.0',
+331 silly addNameRange     '1.4.1',
+331 silly addNameRange     '1.4.2',
+331 silly addNameRange     '1.5.0',
+331 silly addNameRange     '1.6.0',
+331 silly addNameRange     '1.6.1',
+331 silly addNameRange     '1.7.0',
+331 silly addNameRange     '1.7.1',
+331 silly addNameRange     '1.7.2',
+331 silly addNameRange     '1.8.0',
+331 silly addNameRange     '1.8.1',
+331 silly addNameRange     '1.9.0',
+331 silly addNameRange     '1.9.1',
+331 silly addNameRange     '1.9.2',
+331 silly addNameRange     '1.10.0',
+331 silly addNameRange     '2.0.0',
+331 silly addNameRange     '2.1.0',
+331 silly addNameRange     '2.1.1',
+331 silly addNameRange     '2.1.2',
+331 silly addNameRange     '2.2.0',
+331 silly addNameRange     '2.3.0',
+331 silly addNameRange     '3.0.0' ] ]
+332 verbose addNamed [ 'chai', '3.0.0' ]
+333 verbose addNamed [ '3.0.0', '3.0.0' ]
+334 silly lockFile 9c45fc5e-chai-3-0-0 chai@3.0.0
+335 verbose lock chai@3.0.0 /Users/van/.npm/9c45fc5e-chai-3-0-0.lock
+336 silly lockFile 9c45fc5e-chai-3-0-0 chai@3.0.0
+337 silly lockFile 9c45fc5e-chai-3-0-0 chai@3.0.0
+338 silly lockFile 49098e9e-chai-3-0-0 chai@^3.0.0
+339 silly lockFile 49098e9e-chai-3-0-0 chai@^3.0.0
+340 http 200 https://registry.npmjs.org/bower/-/bower-1.4.1.tgz
+341 http 304 https://registry.npmjs.org/supertest
+342 silly registry.get cb [ 304,
+342 silly registry.get   { date: 'Sun, 28 Jun 2015 17:11:44 GMT',
+342 silly registry.get     via: '1.1 varnish',
+342 silly registry.get     'cache-control': 'max-age=60',
+342 silly registry.get     etag: '"CUZ9DSIP7YIF5EAI9U4B5SCGJ"',
+342 silly registry.get     age: '0',
+342 silly registry.get     connection: 'keep-alive',
+342 silly registry.get     'x-served-by': 'cache-sjc3133-SJC',
+342 silly registry.get     'x-cache': 'HIT',
+342 silly registry.get     'x-cache-hits': '1',
+342 silly registry.get     'x-timer': 'S1435511504.471318,VS0,VE350',
+342 silly registry.get     vary: 'Accept' } ]
+343 verbose etag https://registry.npmjs.org/supertest from cache
+344 silly addNameRange number 2 { name: 'supertest', range: '>=1.0.1-0 <2.0.0-0', hasData: true }
+345 silly addNameRange versions [ 'supertest',
+345 silly addNameRange   [ '0.0.1',
+345 silly addNameRange     '0.1.0',
+345 silly addNameRange     '0.1.1',
+345 silly addNameRange     '0.1.2',
+345 silly addNameRange     '0.2.0',
+345 silly addNameRange     '0.3.0',
+345 silly addNameRange     '0.3.1',
+345 silly addNameRange     '0.4.0',
+345 silly addNameRange     '0.4.1',
+345 silly addNameRange     '0.4.2',
+345 silly addNameRange     '0.5.0',
+345 silly addNameRange     '0.5.1',
+345 silly addNameRange     '0.6.0',
+345 silly addNameRange     '0.6.1',
+345 silly addNameRange     '0.7.0',
+345 silly addNameRange     '0.7.1',
+345 silly addNameRange     '0.8.0',
+345 silly addNameRange     '0.8.1',
+345 silly addNameRange     '0.8.2',
+345 silly addNameRange     '0.8.3',
+345 silly addNameRange     '0.9.0',
+345 silly addNameRange     '0.9.1',
+345 silly addNameRange     '0.9.2',
+345 silly addNameRange     '0.10.0',
+345 silly addNameRange     '0.11.0',
+345 silly addNameRange     '0.12.0',
+345 silly addNameRange     '0.12.1',
+345 silly addNameRange     '0.13.0',
+345 silly addNameRange     '0.14.0',
+345 silly addNameRange     '0.15.0',
+345 silly addNameRange     '1.0.0',
+345 silly addNameRange     '1.0.1' ] ]
+346 verbose addNamed [ 'supertest', '1.0.1' ]
+347 verbose addNamed [ '1.0.1', '1.0.1' ]
+348 silly lockFile e45f11f4-supertest-1-0-1 supertest@1.0.1
+349 verbose lock supertest@1.0.1 /Users/van/.npm/e45f11f4-supertest-1-0-1.lock
+350 silly lockFile e45f11f4-supertest-1-0-1 supertest@1.0.1
+351 silly lockFile e45f11f4-supertest-1-0-1 supertest@1.0.1
+352 silly lockFile 8b25c329-supertest-1-0-1 supertest@^1.0.1
+353 silly lockFile 8b25c329-supertest-1-0-1 supertest@^1.0.1
+354 http 304 https://registry.npmjs.org/loopback-testing
+355 silly registry.get cb [ 304,
+355 silly registry.get   { date: 'Sun, 28 Jun 2015 17:11:44 GMT',
+355 silly registry.get     via: '1.1 varnish',
+355 silly registry.get     'cache-control': 'max-age=60',
+355 silly registry.get     etag: '"1DG8YB4L4CMX8WX9GELJ1D9F9"',
+355 silly registry.get     age: '0',
+355 silly registry.get     connection: 'keep-alive',
+355 silly registry.get     'x-served-by': 'cache-sjc3133-SJC',
+355 silly registry.get     'x-cache': 'MISS',
+355 silly registry.get     'x-cache-hits': '0',
+355 silly registry.get     'x-timer': 'S1435511504.472731,VS0,VE417',
+355 silly registry.get     vary: 'Accept' } ]
+356 verbose etag https://registry.npmjs.org/loopback-testing from cache
+357 silly addNameRange number 2 { name: 'loopback-testing',
+357 silly addNameRange   range: '>=1.1.0-0 <2.0.0-0',
+357 silly addNameRange   hasData: true }
+358 silly addNameRange versions [ 'loopback-testing',
+358 silly addNameRange   [ '0.0.1',
+358 silly addNameRange     '0.0.2',
+358 silly addNameRange     '0.0.3',
+358 silly addNameRange     '0.0.4',
+358 silly addNameRange     '0.1.0',
+358 silly addNameRange     '0.1.1',
+358 silly addNameRange     '0.1.2',
+358 silly addNameRange     '0.1.3',
+358 silly addNameRange     '0.1.4',
+358 silly addNameRange     '0.1.5',
+358 silly addNameRange     '0.2.0',
+358 silly addNameRange     '0.2.1',
+358 silly addNameRange     '1.0.0',
+358 silly addNameRange     '1.0.3',
+358 silly addNameRange     '1.0.4',
+358 silly addNameRange     '1.0.5',
+358 silly addNameRange     '1.1.0',
+358 silly addNameRange     '1.2.0' ] ]
+359 verbose addNamed [ 'loopback-testing', '1.2.0' ]
+360 verbose addNamed [ '1.2.0', '1.2.0' ]
+361 silly lockFile 06eb0acf-loopback-testing-1-2-0 loopback-testing@1.2.0
+362 verbose lock loopback-testing@1.2.0 /Users/van/.npm/06eb0acf-loopback-testing-1-2-0.lock
+363 silly lockFile 06eb0acf-loopback-testing-1-2-0 loopback-testing@1.2.0
+364 silly lockFile 06eb0acf-loopback-testing-1-2-0 loopback-testing@1.2.0
+365 silly lockFile 974a4ad9-loopback-testing-1-1-0 loopback-testing@^1.1.0
+366 silly lockFile 974a4ad9-loopback-testing-1-1-0 loopback-testing@^1.1.0
+367 silly lockFile 04dcb06b--npmjs-org-bower-bower-1-4-1-tgz https://registry.npmjs.org/bower/-/bower-1.4.1.tgz
+368 silly lockFile 04dcb06b--npmjs-org-bower-bower-1-4-1-tgz https://registry.npmjs.org/bower/-/bower-1.4.1.tgz
+369 silly lockFile 185f46c0-bower-1-4-1 bower@1.4.1
+370 silly lockFile 185f46c0-bower-1-4-1 bower@1.4.1
+371 silly lockFile 09819b10-bower-latest bower@latest
+372 silly lockFile 09819b10-bower-latest bower@latest
+373 verbose git clone https://github.com/vancarney/backbone-ui Cloning into bare repository '/Users/van/.npm/_git-remotes/https-github-com-vancarney-backbone-ui-0a23dc31'...
+374 verbose git fetch -a origin (https://github.com/vancarney/backbone-ui)
+375 verbose git rev-list -n1 apihero-ui 4d0b652843b93a1007d8af30501a9c477d8aba1b
+376 verbose resolved git url git+https://github.com/vancarney/backbone-ui#4d0b652843b93a1007d8af30501a9c477d8aba1b
+377 verbose tar unpack /var/folders/qs/fz2wcv9527dddw1cmwc7yqwc0000gn/T/npm-56448-p2dpauUo/1435511511688-0.2607063390314579/tmp.tgz
+378 silly lockFile 7e78b7f6--2607063390314579-tmp-tgz-unpack tar:///var/folders/qs/fz2wcv9527dddw1cmwc7yqwc0000gn/T/npm-56448-p2dpauUo/1435511511688-0.2607063390314579/tmp.tgz-unpack
+379 verbose lock tar:///var/folders/qs/fz2wcv9527dddw1cmwc7yqwc0000gn/T/npm-56448-p2dpauUo/1435511511688-0.2607063390314579/tmp.tgz-unpack /Users/van/.npm/7e78b7f6--2607063390314579-tmp-tgz-unpack.lock
+380 silly lockFile 4355bd99-11688-0-2607063390314579-tmp-tgz tar:///var/folders/qs/fz2wcv9527dddw1cmwc7yqwc0000gn/T/npm-56448-p2dpauUo/1435511511688-0.2607063390314579/tmp.tgz
+381 verbose lock tar:///var/folders/qs/fz2wcv9527dddw1cmwc7yqwc0000gn/T/npm-56448-p2dpauUo/1435511511688-0.2607063390314579/tmp.tgz /Users/van/.npm/4355bd99-11688-0-2607063390314579-tmp-tgz.lock
+382 silly gunzTarPerm modes [ '755', '644' ]
+383 silly gunzTarPerm extractEntry
+384 silly gunzTarPerm modified mode [ '', 509, 493 ]
+385 silly gunzTarPerm extractEntry .DS_Store
+386 silly gunzTarPerm modified mode [ '.DS_Store', 436, 420 ]
+387 silly gunzTarPerm extractEntry .bowerrc
+388 silly gunzTarPerm modified mode [ '.bowerrc', 436, 420 ]
+389 silly gunzTarPerm extractEntry .gitignore
+390 silly gunzTarPerm modified mode [ '.gitignore', 436, 420 ]
+391 silly gunzTarPerm extractEntry .project
+392 silly gunzTarPerm modified mode [ '.project', 436, 420 ]
+393 silly gunzTarPerm extractEntry Cakefile
+394 silly gunzTarPerm modified mode [ 'Cakefile', 436, 420 ]
+395 silly gunzTarPerm extractEntry LICENSE
+396 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+397 silly gunzTarPerm extractEntry README.md
+398 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+399 silly gunzTarPerm extractEntry assets/
+400 silly gunzTarPerm modified mode [ 'assets/', 509, 493 ]
+401 silly gunzTarPerm extractEntry assets/coffee/
+402 silly gunzTarPerm modified mode [ 'assets/coffee/', 509, 493 ]
+403 silly gunzTarPerm extractEntry assets/coffee/.DS_Store
+404 silly gunzTarPerm modified mode [ 'assets/coffee/.DS_Store', 436, 420 ]
+405 silly gunzTarPerm extractEntry assets/coffee/_routes.coffee
+406 silly gunzTarPerm modified mode [ 'assets/coffee/_routes.coffee', 436, 420 ]
+407 silly gunzTarPerm extractEntry assets/coffee/_utils.coffee
+408 silly gunzTarPerm modified mode [ 'assets/coffee/_utils.coffee', 436, 420 ]
+409 silly gunzTarPerm extractEntry assets/coffee/application.js.coffee
+410 silly gunzTarPerm modified mode [ 'assets/coffee/application.js.coffee', 436, 420 ]
+411 silly gunzTarPerm extractEntry assets/coffee/controls/
+412 silly gunzTarPerm modified mode [ 'assets/coffee/controls/', 509, 493 ]
+413 silly gunzTarPerm extractEntry assets/coffee/controls/checkbox.coffee
+414 silly gunzTarPerm modified mode [ 'assets/coffee/controls/checkbox.coffee', 436, 420 ]
+415 silly gunzTarPerm extractEntry assets/coffee/controls/panel.coffee
+416 silly gunzTarPerm modified mode [ 'assets/coffee/controls/panel.coffee', 436, 420 ]
+417 silly gunzTarPerm extractEntry assets/coffee/controls/slider.coffee
+418 silly gunzTarPerm modified mode [ 'assets/coffee/controls/slider.coffee', 436, 420 ]
+419 silly gunzTarPerm extractEntry assets/coffee/index.coffee
+420 silly gunzTarPerm modified mode [ 'assets/coffee/index.coffee', 436, 420 ]
+421 silly gunzTarPerm extractEntry assets/coffee/interactions.coffee
+422 silly gunzTarPerm modified mode [ 'assets/coffee/interactions.coffee', 436, 420 ]
+423 silly gunzTarPerm extractEntry assets/coffee/main.coffee
+424 silly gunzTarPerm modified mode [ 'assets/coffee/main.coffee', 436, 420 ]
+425 silly gunzTarPerm extractEntry assets/coffee/views/
+426 silly gunzTarPerm modified mode [ 'assets/coffee/views/', 509, 493 ]
+427 silly gunzTarPerm extractEntry assets/coffee/views/BootstrapView.coffee
+428 silly gunzTarPerm modified mode [ 'assets/coffee/views/BootstrapView.coffee', 436, 420 ]
+429 silly gunzTarPerm extractEntry assets/coffee/views/CompositeView.coffee
+430 silly gunzTarPerm modified mode [ 'assets/coffee/views/CompositeView.coffee', 436, 420 ]
+431 silly gunzTarPerm extractEntry assets/jade/
+432 silly gunzTarPerm modified mode [ 'assets/jade/', 509, 493 ]
+433 silly gunzTarPerm extractEntry assets/jade/controls/
+434 silly gunzTarPerm modified mode [ 'assets/jade/controls/', 509, 493 ]
+435 silly gunzTarPerm extractEntry assets/jade/controls/checkbox-control.jade
+436 silly gunzTarPerm modified mode [ 'assets/jade/controls/checkbox-control.jade', 436, 420 ]
+437 silly gunzTarPerm extractEntry assets/jade/forms/
+438 silly gunzTarPerm modified mode [ 'assets/jade/forms/', 509, 493 ]
+439 silly gunzTarPerm extractEntry assets/jade/forms/login-form.jade
+440 silly gunzTarPerm modified mode [ 'assets/jade/forms/login-form.jade', 436, 420 ]
+441 silly gunzTarPerm extractEntry assets/jade/forms/registration-form.jade
+442 silly gunzTarPerm modified mode [ 'assets/jade/forms/registration-form.jade', 436, 420 ]
+443 silly gunzTarPerm extractEntry assets/jade/layouts/
+444 silly gunzTarPerm modified mode [ 'assets/jade/layouts/', 509, 493 ]
+445 silly gunzTarPerm extractEntry assets/jade/layouts/layout.jade
+446 silly gunzTarPerm modified mode [ 'assets/jade/layouts/layout.jade', 436, 420 ]
+447 silly gunzTarPerm extractEntry assets/jade/layouts/xhr-layout.jade
+448 silly gunzTarPerm modified mode [ 'assets/jade/layouts/xhr-layout.jade', 436, 420 ]
+449 silly gunzTarPerm extractEntry assets/jade/mixins/
+450 silly gunzTarPerm modified mode [ 'assets/jade/mixins/', 509, 493 ]
+451 silly gunzTarPerm extractEntry assets/jade/mixins/alert.jade
+452 silly gunzTarPerm modified mode [ 'assets/jade/mixins/alert.jade', 436, 420 ]
+453 silly gunzTarPerm extractEntry assets/jade/mixins/uses_layouts.jade
+454 silly gunzTarPerm modified mode [ 'assets/jade/mixins/uses_layouts.jade', 436, 420 ]
+455 silly gunzTarPerm extractEntry assets/less/
+456 silly gunzTarPerm modified mode [ 'assets/less/', 509, 493 ]
+457 silly gunzTarPerm extractEntry assets/less/application.css.less
+458 silly gunzTarPerm modified mode [ 'assets/less/application.css.less', 436, 420 ]
+459 silly gunzTarPerm extractEntry assets/less/backbone-ui.styl
+460 silly gunzTarPerm modified mode [ 'assets/less/backbone-ui.styl', 436, 420 ]
+461 silly gunzTarPerm extractEntry assets/less/bootstrap.variables.css.less
+462 silly gunzTarPerm modified mode [ 'assets/less/bootstrap.variables.css.less', 436, 420 ]
+463 silly gunzTarPerm extractEntry assets/less/panel.styl
+464 silly gunzTarPerm modified mode [ 'assets/less/panel.styl', 436, 420 ]
+465 silly gunzTarPerm extractEntry bower.json
+466 silly gunzTarPerm modified mode [ 'bower.json', 436, 420 ]
+467 silly gunzTarPerm extractEntry environment.js
+468 silly gunzTarPerm modified mode [ 'environment.js', 436, 420 ]
+469 silly gunzTarPerm extractEntry examples/
+470 silly gunzTarPerm modified mode [ 'examples/', 509, 493 ]
+471 silly gunzTarPerm extractEntry examples/index.html
+472 silly gunzTarPerm modified mode [ 'examples/index.html', 436, 420 ]
+473 silly gunzTarPerm extractEntry index.js
+474 silly gunzTarPerm modified mode [ 'index.js', 436, 420 ]
+475 silly gunzTarPerm extractEntry lib/
+476 silly gunzTarPerm modified mode [ 'lib/', 509, 493 ]
+477 silly gunzTarPerm extractEntry lib/apihero-ui.js
+478 silly gunzTarPerm modified mode [ 'lib/apihero-ui.js', 436, 420 ]
+479 silly gunzTarPerm extractEntry manifest.js
+480 silly gunzTarPerm modified mode [ 'manifest.js', 509, 493 ]
+481 silly gunzTarPerm extractEntry package.json
+482 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+483 silly gunzTarPerm extractEntry src/
+484 silly gunzTarPerm modified mode [ 'src/', 509, 493 ]
+485 silly gunzTarPerm extractEntry src/apihero-ui.coffee
+486 silly gunzTarPerm modified mode [ 'src/apihero-ui.coffee', 436, 420 ]
+487 silly gunzTarPerm extractEntry vendor/
+488 silly gunzTarPerm modified mode [ 'vendor/', 509, 493 ]
+489 silly gunzTarPerm extractEntry vendor/backbone/
+490 silly gunzTarPerm modified mode [ 'vendor/backbone/', 509, 493 ]
+491 silly gunzTarPerm extractEntry vendor/backbone/.bower.json
+492 silly gunzTarPerm modified mode [ 'vendor/backbone/.bower.json', 436, 420 ]
+493 silly gunzTarPerm extractEntry vendor/backbone/.gitignore
+494 silly gunzTarPerm modified mode [ 'vendor/backbone/.gitignore', 436, 420 ]
+495 silly gunzTarPerm extractEntry vendor/backbone/.npmignore
+496 silly gunzTarPerm modified mode [ 'vendor/backbone/.npmignore', 436, 420 ]
+497 silly gunzTarPerm extractEntry vendor/backbone/CNAME
+498 silly gunzTarPerm modified mode [ 'vendor/backbone/CNAME', 436, 420 ]
+499 silly gunzTarPerm extractEntry vendor/backbone/CONTRIBUTING.md
+500 silly gunzTarPerm modified mode [ 'vendor/backbone/CONTRIBUTING.md', 436, 420 ]
+501 silly gunzTarPerm extractEntry vendor/backbone/LICENSE
+502 silly gunzTarPerm modified mode [ 'vendor/backbone/LICENSE', 436, 420 ]
+503 silly gunzTarPerm extractEntry vendor/backbone/README.md
+504 silly gunzTarPerm modified mode [ 'vendor/backbone/README.md', 436, 420 ]
+505 silly gunzTarPerm extractEntry vendor/backbone/backbone.js
+506 silly gunzTarPerm modified mode [ 'vendor/backbone/backbone.js', 436, 420 ]
+507 silly gunzTarPerm extractEntry vendor/backbone/bower.json
+508 silly gunzTarPerm modified mode [ 'vendor/backbone/bower.json', 436, 420 ]
+509 silly gunzTarPerm extractEntry vendor/backbone/component.json
+510 silly gunzTarPerm modified mode [ 'vendor/backbone/component.json', 436, 420 ]
+511 silly gunzTarPerm extractEntry vendor/backbone/index.html
+512 silly gunzTarPerm modified mode [ 'vendor/backbone/index.html', 436, 420 ]
+513 silly gunzTarPerm extractEntry vendor/backbone/index.js
+514 silly gunzTarPerm modified mode [ 'vendor/backbone/index.js', 436, 420 ]
+515 silly gunzTarPerm extractEntry vendor/backbone/package.json
+516 silly gunzTarPerm modified mode [ 'vendor/backbone/package.json', 436, 420 ]
+517 silly gunzTarPerm extractEntry vendor/bootstrap/
+518 silly gunzTarPerm modified mode [ 'vendor/bootstrap/', 509, 493 ]
+519 silly gunzTarPerm extractEntry vendor/bootstrap/.bower.json
+520 silly gunzTarPerm modified mode [ 'vendor/bootstrap/.bower.json', 436, 420 ]
+521 silly gunzTarPerm extractEntry vendor/bootstrap/Gruntfile.js
+522 silly gunzTarPerm modified mode [ 'vendor/bootstrap/Gruntfile.js', 436, 420 ]
+523 silly gunzTarPerm extractEntry vendor/bootstrap/LICENSE
+524 silly gunzTarPerm modified mode [ 'vendor/bootstrap/LICENSE', 436, 420 ]
+525 silly gunzTarPerm extractEntry vendor/bootstrap/README.md
+526 silly gunzTarPerm modified mode [ 'vendor/bootstrap/README.md', 436, 420 ]
+527 silly gunzTarPerm extractEntry vendor/bootstrap/bower.json
+528 silly gunzTarPerm modified mode [ 'vendor/bootstrap/bower.json', 436, 420 ]
+529 silly gunzTarPerm extractEntry vendor/bootstrap/dist/
+530 silly gunzTarPerm modified mode [ 'vendor/bootstrap/dist/', 509, 493 ]
+531 silly gunzTarPerm extractEntry vendor/bootstrap/dist/css/
+532 silly gunzTarPerm modified mode [ 'vendor/bootstrap/dist/css/', 509, 493 ]
+533 silly gunzTarPerm extractEntry vendor/bootstrap/dist/css/bootstrap-theme.css
+534 silly gunzTarPerm modified mode [ 'vendor/bootstrap/dist/css/bootstrap-theme.css', 436, 420 ]
+535 silly gunzTarPerm extractEntry vendor/bootstrap/dist/css/bootstrap-theme.css.map
+536 silly gunzTarPerm modified mode [ 'vendor/bootstrap/dist/css/bootstrap-theme.css.map', 436, 420 ]
+537 silly gunzTarPerm extractEntry vendor/bootstrap/dist/css/bootstrap-theme.min.css
+538 silly gunzTarPerm modified mode [ 'vendor/bootstrap/dist/css/bootstrap-theme.min.css', 436, 420 ]
+539 silly gunzTarPerm extractEntry vendor/bootstrap/dist/css/bootstrap.css
+540 silly gunzTarPerm modified mode [ 'vendor/bootstrap/dist/css/bootstrap.css', 436, 420 ]
+541 silly gunzTarPerm extractEntry vendor/bootstrap/dist/css/bootstrap.css.map
+542 silly gunzTarPerm modified mode [ 'vendor/bootstrap/dist/css/bootstrap.css.map', 436, 420 ]
+543 silly gunzTarPerm extractEntry vendor/bootstrap/dist/css/bootstrap.min.css
+544 silly gunzTarPerm modified mode [ 'vendor/bootstrap/dist/css/bootstrap.min.css', 436, 420 ]
+545 silly gunzTarPerm extractEntry vendor/bootstrap/dist/fonts/
+546 silly gunzTarPerm modified mode [ 'vendor/bootstrap/dist/fonts/', 509, 493 ]
+547 silly gunzTarPerm extractEntry vendor/bootstrap/dist/fonts/glyphicons-halflings-regular.eot
+548 silly gunzTarPerm modified mode [ 'vendor/bootstrap/dist/fonts/glyphicons-halflings-regular.eot',
+548 silly gunzTarPerm   436,
+548 silly gunzTarPerm   420 ]
+549 silly gunzTarPerm extractEntry vendor/bootstrap/dist/fonts/glyphicons-halflings-regular.svg
+550 silly gunzTarPerm modified mode [ 'vendor/bootstrap/dist/fonts/glyphicons-halflings-regular.svg',
+550 silly gunzTarPerm   436,
+550 silly gunzTarPerm   420 ]
+551 silly gunzTarPerm extractEntry vendor/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf
+552 silly gunzTarPerm modified mode [ 'vendor/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf',
+552 silly gunzTarPerm   436,
+552 silly gunzTarPerm   420 ]
+553 silly gunzTarPerm extractEntry vendor/bootstrap/dist/fonts/glyphicons-halflings-regular.woff
+554 silly gunzTarPerm modified mode [ 'vendor/bootstrap/dist/fonts/glyphicons-halflings-regular.woff',
+554 silly gunzTarPerm   436,
+554 silly gunzTarPerm   420 ]
+555 silly gunzTarPerm extractEntry vendor/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2
+556 silly gunzTarPerm modified mode [ 'vendor/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2',
+556 silly gunzTarPerm   436,
+556 silly gunzTarPerm   420 ]
+557 silly gunzTarPerm extractEntry vendor/bootstrap/dist/js/
+558 silly gunzTarPerm modified mode [ 'vendor/bootstrap/dist/js/', 509, 493 ]
+559 silly gunzTarPerm extractEntry vendor/bootstrap/dist/js/bootstrap.js
+560 silly gunzTarPerm modified mode [ 'vendor/bootstrap/dist/js/bootstrap.js', 436, 420 ]
+561 silly gunzTarPerm extractEntry vendor/bootstrap/dist/js/bootstrap.min.js
+562 silly gunzTarPerm modified mode [ 'vendor/bootstrap/dist/js/bootstrap.min.js', 436, 420 ]
+563 silly gunzTarPerm extractEntry vendor/bootstrap/dist/js/npm.js
+564 silly gunzTarPerm modified mode [ 'vendor/bootstrap/dist/js/npm.js', 436, 420 ]
+565 silly gunzTarPerm extractEntry vendor/bootstrap/fonts/
+566 silly gunzTarPerm modified mode [ 'vendor/bootstrap/fonts/', 509, 493 ]
+567 silly gunzTarPerm extractEntry vendor/bootstrap/fonts/glyphicons-halflings-regular.eot
+568 silly gunzTarPerm modified mode [ 'vendor/bootstrap/fonts/glyphicons-halflings-regular.eot',
+568 silly gunzTarPerm   436,
+568 silly gunzTarPerm   420 ]
+569 silly gunzTarPerm extractEntry vendor/bootstrap/fonts/glyphicons-halflings-regular.svg
+570 silly gunzTarPerm modified mode [ 'vendor/bootstrap/fonts/glyphicons-halflings-regular.svg',
+570 silly gunzTarPerm   436,
+570 silly gunzTarPerm   420 ]
+571 silly gunzTarPerm extractEntry vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf
+572 silly gunzTarPerm modified mode [ 'vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf',
+572 silly gunzTarPerm   436,
+572 silly gunzTarPerm   420 ]
+573 silly gunzTarPerm extractEntry vendor/bootstrap/fonts/glyphicons-halflings-regular.woff
+574 silly gunzTarPerm modified mode [ 'vendor/bootstrap/fonts/glyphicons-halflings-regular.woff',
+574 silly gunzTarPerm   436,
+574 silly gunzTarPerm   420 ]
+575 silly gunzTarPerm extractEntry vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2
+576 silly gunzTarPerm modified mode [ 'vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2',
+576 silly gunzTarPerm   436,
+576 silly gunzTarPerm   420 ]
+577 silly gunzTarPerm extractEntry vendor/bootstrap/grunt/
+578 silly gunzTarPerm modified mode [ 'vendor/bootstrap/grunt/', 509, 493 ]
+579 silly gunzTarPerm extractEntry vendor/bootstrap/grunt/.jshintrc
+580 silly gunzTarPerm modified mode [ 'vendor/bootstrap/grunt/.jshintrc', 436, 420 ]
+581 silly gunzTarPerm extractEntry vendor/bootstrap/grunt/bs-commonjs-generator.js
+582 silly gunzTarPerm modified mode [ 'vendor/bootstrap/grunt/bs-commonjs-generator.js', 436, 420 ]
+583 silly gunzTarPerm extractEntry vendor/bootstrap/grunt/bs-glyphicons-data-generator.js
+584 silly gunzTarPerm modified mode [ 'vendor/bootstrap/grunt/bs-glyphicons-data-generator.js',
+584 silly gunzTarPerm   436,
+584 silly gunzTarPerm   420 ]
+585 silly gunzTarPerm extractEntry vendor/bootstrap/grunt/bs-lessdoc-parser.js
+586 silly gunzTarPerm modified mode [ 'vendor/bootstrap/grunt/bs-lessdoc-parser.js', 436, 420 ]
+587 silly gunzTarPerm extractEntry vendor/bootstrap/grunt/bs-raw-files-generator.js
+588 silly gunzTarPerm modified mode [ 'vendor/bootstrap/grunt/bs-raw-files-generator.js', 436, 420 ]
+589 silly gunzTarPerm extractEntry vendor/bootstrap/grunt/configBridge.json
+590 silly gunzTarPerm modified mode [ 'vendor/bootstrap/grunt/configBridge.json', 436, 420 ]
+591 silly gunzTarPerm extractEntry vendor/bootstrap/grunt/sauce_browsers.yml
+592 silly gunzTarPerm modified mode [ 'vendor/bootstrap/grunt/sauce_browsers.yml', 436, 420 ]
+593 silly gunzTarPerm extractEntry vendor/bootstrap/js/
+594 silly gunzTarPerm modified mode [ 'vendor/bootstrap/js/', 509, 493 ]
+595 silly gunzTarPerm extractEntry vendor/bootstrap/js/.jscsrc
+596 silly gunzTarPerm modified mode [ 'vendor/bootstrap/js/.jscsrc', 436, 420 ]
+597 silly gunzTarPerm extractEntry vendor/bootstrap/js/.jshintrc
+598 silly gunzTarPerm modified mode [ 'vendor/bootstrap/js/.jshintrc', 436, 420 ]
+599 silly gunzTarPerm extractEntry vendor/bootstrap/js/affix.js
+600 silly gunzTarPerm modified mode [ 'vendor/bootstrap/js/affix.js', 436, 420 ]
+601 silly gunzTarPerm extractEntry vendor/bootstrap/js/alert.js
+602 silly gunzTarPerm modified mode [ 'vendor/bootstrap/js/alert.js', 436, 420 ]
+603 silly gunzTarPerm extractEntry vendor/bootstrap/js/button.js
+604 silly gunzTarPerm modified mode [ 'vendor/bootstrap/js/button.js', 436, 420 ]
+605 silly gunzTarPerm extractEntry vendor/bootstrap/js/carousel.js
+606 silly gunzTarPerm modified mode [ 'vendor/bootstrap/js/carousel.js', 436, 420 ]
+607 silly gunzTarPerm extractEntry vendor/bootstrap/js/collapse.js
+608 silly gunzTarPerm modified mode [ 'vendor/bootstrap/js/collapse.js', 436, 420 ]
+609 silly gunzTarPerm extractEntry vendor/bootstrap/js/dropdown.js
+610 silly gunzTarPerm modified mode [ 'vendor/bootstrap/js/dropdown.js', 436, 420 ]
+611 silly gunzTarPerm extractEntry vendor/bootstrap/js/modal.js
+612 silly gunzTarPerm modified mode [ 'vendor/bootstrap/js/modal.js', 436, 420 ]
+613 silly gunzTarPerm extractEntry vendor/bootstrap/js/popover.js
+614 silly gunzTarPerm modified mode [ 'vendor/bootstrap/js/popover.js', 436, 420 ]
+615 silly gunzTarPerm extractEntry vendor/bootstrap/js/scrollspy.js
+616 silly gunzTarPerm modified mode [ 'vendor/bootstrap/js/scrollspy.js', 436, 420 ]
+617 silly gunzTarPerm extractEntry vendor/bootstrap/js/tab.js
+618 silly gunzTarPerm modified mode [ 'vendor/bootstrap/js/tab.js', 436, 420 ]
+619 silly gunzTarPerm extractEntry vendor/bootstrap/js/tooltip.js
+620 silly gunzTarPerm modified mode [ 'vendor/bootstrap/js/tooltip.js', 436, 420 ]
+621 silly gunzTarPerm extractEntry vendor/bootstrap/js/transition.js
+622 silly gunzTarPerm modified mode [ 'vendor/bootstrap/js/transition.js', 436, 420 ]
+623 silly gunzTarPerm extractEntry vendor/bootstrap/less/
+624 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/', 509, 493 ]
+625 silly gunzTarPerm extractEntry vendor/bootstrap/less/.csscomb.json
+626 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/.csscomb.json', 436, 420 ]
+627 silly gunzTarPerm extractEntry vendor/bootstrap/less/.csslintrc
+628 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/.csslintrc', 436, 420 ]
+629 silly gunzTarPerm extractEntry vendor/bootstrap/less/alerts.less
+630 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/alerts.less', 436, 420 ]
+631 silly gunzTarPerm extractEntry vendor/bootstrap/less/badges.less
+632 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/badges.less', 436, 420 ]
+633 silly gunzTarPerm extractEntry vendor/bootstrap/less/bootstrap.less
+634 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/bootstrap.less', 436, 420 ]
+635 silly gunzTarPerm extractEntry vendor/bootstrap/less/breadcrumbs.less
+636 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/breadcrumbs.less', 436, 420 ]
+637 silly gunzTarPerm extractEntry vendor/bootstrap/less/button-groups.less
+638 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/button-groups.less', 436, 420 ]
+639 silly gunzTarPerm extractEntry vendor/bootstrap/less/buttons.less
+640 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/buttons.less', 436, 420 ]
+641 silly gunzTarPerm extractEntry vendor/bootstrap/less/carousel.less
+642 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/carousel.less', 436, 420 ]
+643 silly gunzTarPerm extractEntry vendor/bootstrap/less/close.less
+644 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/close.less', 436, 420 ]
+645 silly gunzTarPerm extractEntry vendor/bootstrap/less/code.less
+646 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/code.less', 436, 420 ]
+647 silly gunzTarPerm extractEntry vendor/bootstrap/less/component-animations.less
+648 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/component-animations.less', 436, 420 ]
+649 silly gunzTarPerm extractEntry vendor/bootstrap/less/dropdowns.less
+650 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/dropdowns.less', 436, 420 ]
+651 silly gunzTarPerm extractEntry vendor/bootstrap/less/forms.less
+652 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/forms.less', 436, 420 ]
+653 silly gunzTarPerm extractEntry vendor/bootstrap/less/glyphicons.less
+654 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/glyphicons.less', 436, 420 ]
+655 silly gunzTarPerm extractEntry vendor/bootstrap/less/grid.less
+656 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/grid.less', 436, 420 ]
+657 silly gunzTarPerm extractEntry vendor/bootstrap/less/input-groups.less
+658 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/input-groups.less', 436, 420 ]
+659 silly gunzTarPerm extractEntry vendor/bootstrap/less/jumbotron.less
+660 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/jumbotron.less', 436, 420 ]
+661 silly gunzTarPerm extractEntry vendor/bootstrap/less/labels.less
+662 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/labels.less', 436, 420 ]
+663 silly gunzTarPerm extractEntry vendor/bootstrap/less/list-group.less
+664 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/list-group.less', 436, 420 ]
+665 silly gunzTarPerm extractEntry vendor/bootstrap/less/media.less
+666 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/media.less', 436, 420 ]
+667 silly gunzTarPerm extractEntry vendor/bootstrap/less/mixins.less
+668 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/mixins.less', 436, 420 ]
+669 silly gunzTarPerm extractEntry vendor/bootstrap/less/mixins/
+670 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/mixins/', 509, 493 ]
+671 silly gunzTarPerm extractEntry vendor/bootstrap/less/mixins/alerts.less
+672 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/mixins/alerts.less', 436, 420 ]
+673 silly gunzTarPerm extractEntry vendor/bootstrap/less/mixins/background-variant.less
+674 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/mixins/background-variant.less',
+674 silly gunzTarPerm   436,
+674 silly gunzTarPerm   420 ]
+675 silly gunzTarPerm extractEntry vendor/bootstrap/less/mixins/border-radius.less
+676 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/mixins/border-radius.less', 436, 420 ]
+677 silly gunzTarPerm extractEntry vendor/bootstrap/less/mixins/buttons.less
+678 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/mixins/buttons.less', 436, 420 ]
+679 silly gunzTarPerm extractEntry vendor/bootstrap/less/mixins/center-block.less
+680 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/mixins/center-block.less', 436, 420 ]
+681 silly gunzTarPerm extractEntry vendor/bootstrap/less/mixins/clearfix.less
+682 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/mixins/clearfix.less', 436, 420 ]
+683 silly gunzTarPerm extractEntry vendor/bootstrap/less/mixins/forms.less
+684 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/mixins/forms.less', 436, 420 ]
+685 silly gunzTarPerm extractEntry vendor/bootstrap/less/mixins/gradients.less
+686 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/mixins/gradients.less', 436, 420 ]
+687 silly gunzTarPerm extractEntry vendor/bootstrap/less/mixins/grid-framework.less
+688 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/mixins/grid-framework.less', 436, 420 ]
+689 silly gunzTarPerm extractEntry vendor/bootstrap/less/mixins/grid.less
+690 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/mixins/grid.less', 436, 420 ]
+691 silly gunzTarPerm extractEntry vendor/bootstrap/less/mixins/hide-text.less
+692 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/mixins/hide-text.less', 436, 420 ]
+693 silly gunzTarPerm extractEntry vendor/bootstrap/less/mixins/image.less
+694 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/mixins/image.less', 436, 420 ]
+695 silly gunzTarPerm extractEntry vendor/bootstrap/less/mixins/labels.less
+696 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/mixins/labels.less', 436, 420 ]
+697 silly gunzTarPerm extractEntry vendor/bootstrap/less/mixins/list-group.less
+698 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/mixins/list-group.less', 436, 420 ]
+699 silly gunzTarPerm extractEntry vendor/bootstrap/less/mixins/nav-divider.less
+700 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/mixins/nav-divider.less', 436, 420 ]
+701 silly gunzTarPerm extractEntry vendor/bootstrap/less/mixins/nav-vertical-align.less
+702 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/mixins/nav-vertical-align.less',
+702 silly gunzTarPerm   436,
+702 silly gunzTarPerm   420 ]
+703 silly gunzTarPerm extractEntry vendor/bootstrap/less/mixins/opacity.less
+704 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/mixins/opacity.less', 436, 420 ]
+705 silly gunzTarPerm extractEntry vendor/bootstrap/less/mixins/pagination.less
+706 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/mixins/pagination.less', 436, 420 ]
+707 silly gunzTarPerm extractEntry vendor/bootstrap/less/mixins/panels.less
+708 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/mixins/panels.less', 436, 420 ]
+709 silly gunzTarPerm extractEntry vendor/bootstrap/less/mixins/progress-bar.less
+710 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/mixins/progress-bar.less', 436, 420 ]
+711 silly gunzTarPerm extractEntry vendor/bootstrap/less/mixins/reset-filter.less
+712 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/mixins/reset-filter.less', 436, 420 ]
+713 silly gunzTarPerm extractEntry vendor/bootstrap/less/mixins/reset-text.less
+714 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/mixins/reset-text.less', 436, 420 ]
+715 silly gunzTarPerm extractEntry vendor/bootstrap/less/mixins/resize.less
+716 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/mixins/resize.less', 436, 420 ]
+717 silly gunzTarPerm extractEntry vendor/bootstrap/less/mixins/responsive-visibility.less
+718 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/mixins/responsive-visibility.less',
+718 silly gunzTarPerm   436,
+718 silly gunzTarPerm   420 ]
+719 silly gunzTarPerm extractEntry vendor/bootstrap/less/mixins/size.less
+720 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/mixins/size.less', 436, 420 ]
+721 silly gunzTarPerm extractEntry vendor/bootstrap/less/mixins/tab-focus.less
+722 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/mixins/tab-focus.less', 436, 420 ]
+723 silly gunzTarPerm extractEntry vendor/bootstrap/less/mixins/table-row.less
+724 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/mixins/table-row.less', 436, 420 ]
+725 silly gunzTarPerm extractEntry vendor/bootstrap/less/mixins/text-emphasis.less
+726 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/mixins/text-emphasis.less', 436, 420 ]
+727 silly gunzTarPerm extractEntry vendor/bootstrap/less/mixins/text-overflow.less
+728 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/mixins/text-overflow.less', 436, 420 ]
+729 silly gunzTarPerm extractEntry vendor/bootstrap/less/mixins/vendor-prefixes.less
+730 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/mixins/vendor-prefixes.less', 436, 420 ]
+731 silly gunzTarPerm extractEntry vendor/bootstrap/less/modals.less
+732 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/modals.less', 436, 420 ]
+733 silly gunzTarPerm extractEntry vendor/bootstrap/less/navbar.less
+734 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/navbar.less', 436, 420 ]
+735 silly gunzTarPerm extractEntry vendor/bootstrap/less/navs.less
+736 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/navs.less', 436, 420 ]
+737 silly gunzTarPerm extractEntry vendor/bootstrap/less/normalize.less
+738 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/normalize.less', 436, 420 ]
+739 silly gunzTarPerm extractEntry vendor/bootstrap/less/pager.less
+740 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/pager.less', 436, 420 ]
+741 silly gunzTarPerm extractEntry vendor/bootstrap/less/pagination.less
+742 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/pagination.less', 436, 420 ]
+743 silly gunzTarPerm extractEntry vendor/bootstrap/less/panels.less
+744 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/panels.less', 436, 420 ]
+745 silly gunzTarPerm extractEntry vendor/bootstrap/less/popovers.less
+746 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/popovers.less', 436, 420 ]
+747 silly gunzTarPerm extractEntry vendor/bootstrap/less/print.less
+748 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/print.less', 436, 420 ]
+749 silly gunzTarPerm extractEntry vendor/bootstrap/less/progress-bars.less
+750 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/progress-bars.less', 436, 420 ]
+751 silly gunzTarPerm extractEntry vendor/bootstrap/less/responsive-embed.less
+752 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/responsive-embed.less', 436, 420 ]
+753 silly gunzTarPerm extractEntry vendor/bootstrap/less/responsive-utilities.less
+754 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/responsive-utilities.less', 436, 420 ]
+755 silly gunzTarPerm extractEntry vendor/bootstrap/less/scaffolding.less
+756 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/scaffolding.less', 436, 420 ]
+757 silly gunzTarPerm extractEntry vendor/bootstrap/less/tables.less
+758 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/tables.less', 436, 420 ]
+759 silly gunzTarPerm extractEntry vendor/bootstrap/less/theme.less
+760 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/theme.less', 436, 420 ]
+761 silly gunzTarPerm extractEntry vendor/bootstrap/less/thumbnails.less
+762 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/thumbnails.less', 436, 420 ]
+763 silly gunzTarPerm extractEntry vendor/bootstrap/less/tooltip.less
+764 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/tooltip.less', 436, 420 ]
+765 silly gunzTarPerm extractEntry vendor/bootstrap/less/type.less
+766 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/type.less', 436, 420 ]
+767 silly gunzTarPerm extractEntry vendor/bootstrap/less/utilities.less
+768 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/utilities.less', 436, 420 ]
+769 silly gunzTarPerm extractEntry vendor/bootstrap/less/variables.less
+770 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/variables.less', 436, 420 ]
+771 silly gunzTarPerm extractEntry vendor/bootstrap/less/wells.less
+772 silly gunzTarPerm modified mode [ 'vendor/bootstrap/less/wells.less', 436, 420 ]
+773 silly gunzTarPerm extractEntry vendor/bootstrap/package.js
+774 silly gunzTarPerm modified mode [ 'vendor/bootstrap/package.js', 436, 420 ]
+775 silly gunzTarPerm extractEntry vendor/bootstrap/package.json
+776 silly gunzTarPerm modified mode [ 'vendor/bootstrap/package.json', 436, 420 ]
+777 silly gunzTarPerm extractEntry vendor/fun-utils/
+778 silly gunzTarPerm modified mode [ 'vendor/fun-utils/', 509, 493 ]
+779 silly gunzTarPerm extractEntry vendor/fun-utils/.bower.json
+780 silly gunzTarPerm modified mode [ 'vendor/fun-utils/.bower.json', 436, 420 ]
+781 silly gunzTarPerm extractEntry vendor/fun-utils/.gitignore
+782 silly gunzTarPerm modified mode [ 'vendor/fun-utils/.gitignore', 436, 420 ]
+783 silly gunzTarPerm extractEntry vendor/fun-utils/.npmignore
+784 silly gunzTarPerm modified mode [ 'vendor/fun-utils/.npmignore', 436, 420 ]
+785 silly gunzTarPerm extractEntry vendor/fun-utils/.travis.yml
+786 silly gunzTarPerm modified mode [ 'vendor/fun-utils/.travis.yml', 436, 420 ]
+787 silly gunzTarPerm extractEntry vendor/fun-utils/Cakefile
+788 silly gunzTarPerm modified mode [ 'vendor/fun-utils/Cakefile', 436, 420 ]
+789 silly gunzTarPerm extractEntry vendor/fun-utils/LICENSE
+790 silly gunzTarPerm modified mode [ 'vendor/fun-utils/LICENSE', 436, 420 ]
+791 silly gunzTarPerm extractEntry vendor/fun-utils/README.md
+792 silly gunzTarPerm modified mode [ 'vendor/fun-utils/README.md', 436, 420 ]
+793 silly gunzTarPerm extractEntry vendor/fun-utils/bower.json
+794 silly gunzTarPerm modified mode [ 'vendor/fun-utils/bower.json', 436, 420 ]
+795 silly gunzTarPerm extractEntry vendor/fun-utils/dist/
+796 silly gunzTarPerm modified mode [ 'vendor/fun-utils/dist/', 509, 493 ]
+797 silly gunzTarPerm extractEntry vendor/fun-utils/dist/fun-utils.js
+798 silly gunzTarPerm modified mode [ 'vendor/fun-utils/dist/fun-utils.js', 436, 420 ]
+799 silly gunzTarPerm extractEntry vendor/fun-utils/index.js
+800 silly gunzTarPerm modified mode [ 'vendor/fun-utils/index.js', 436, 420 ]
+801 silly gunzTarPerm extractEntry vendor/handlebars/
+802 silly gunzTarPerm modified mode [ 'vendor/handlebars/', 509, 493 ]
+803 silly gunzTarPerm extractEntry vendor/handlebars/.bower.json
+804 silly gunzTarPerm modified mode [ 'vendor/handlebars/.bower.json', 436, 420 ]
+805 silly gunzTarPerm extractEntry vendor/handlebars/.gitignore
+806 silly gunzTarPerm modified mode [ 'vendor/handlebars/.gitignore', 436, 420 ]
+807 silly gunzTarPerm extractEntry vendor/handlebars/README.md
+808 silly gunzTarPerm modified mode [ 'vendor/handlebars/README.md', 436, 420 ]
+809 silly gunzTarPerm extractEntry vendor/handlebars/bower.json
+810 silly gunzTarPerm modified mode [ 'vendor/handlebars/bower.json', 436, 420 ]
+811 silly gunzTarPerm extractEntry vendor/handlebars/component.json
+812 silly gunzTarPerm modified mode [ 'vendor/handlebars/component.json', 436, 420 ]
+813 silly gunzTarPerm extractEntry vendor/handlebars/composer.json
+814 silly gunzTarPerm modified mode [ 'vendor/handlebars/composer.json', 436, 420 ]
+815 silly gunzTarPerm extractEntry vendor/handlebars/handlebars-source.gemspec
+816 silly gunzTarPerm modified mode [ 'vendor/handlebars/handlebars-source.gemspec', 436, 420 ]
+817 silly gunzTarPerm extractEntry vendor/handlebars/handlebars.amd.js
+818 silly gunzTarPerm modified mode [ 'vendor/handlebars/handlebars.amd.js', 436, 420 ]
+819 silly gunzTarPerm extractEntry vendor/handlebars/handlebars.amd.min.js
+820 silly gunzTarPerm modified mode [ 'vendor/handlebars/handlebars.amd.min.js', 436, 420 ]
+821 silly gunzTarPerm extractEntry vendor/handlebars/handlebars.js
+822 silly gunzTarPerm modified mode [ 'vendor/handlebars/handlebars.js', 436, 420 ]
+823 silly gunzTarPerm extractEntry vendor/handlebars/handlebars.js.nuspec
+824 silly gunzTarPerm modified mode [ 'vendor/handlebars/handlebars.js.nuspec', 436, 420 ]
+825 silly gunzTarPerm extractEntry vendor/handlebars/handlebars.min.js
+826 silly gunzTarPerm modified mode [ 'vendor/handlebars/handlebars.min.js', 436, 420 ]
+827 silly gunzTarPerm extractEntry vendor/handlebars/handlebars.runtime.amd.js
+828 silly gunzTarPerm modified mode [ 'vendor/handlebars/handlebars.runtime.amd.js', 436, 420 ]
+829 silly gunzTarPerm extractEntry vendor/handlebars/handlebars.runtime.amd.min.js
+830 silly gunzTarPerm modified mode [ 'vendor/handlebars/handlebars.runtime.amd.min.js', 436, 420 ]
+831 silly gunzTarPerm extractEntry vendor/handlebars/handlebars.runtime.js
+832 silly gunzTarPerm modified mode [ 'vendor/handlebars/handlebars.runtime.js', 436, 420 ]
+833 silly gunzTarPerm extractEntry vendor/handlebars/handlebars.runtime.min.js
+834 silly gunzTarPerm modified mode [ 'vendor/handlebars/handlebars.runtime.min.js', 436, 420 ]
+835 silly gunzTarPerm extractEntry vendor/handlebars/lib/
+836 silly gunzTarPerm modified mode [ 'vendor/handlebars/lib/', 509, 493 ]
+837 silly gunzTarPerm extractEntry vendor/handlebars/lib/handlebars/
+838 silly gunzTarPerm modified mode [ 'vendor/handlebars/lib/handlebars/', 509, 493 ]
+839 silly gunzTarPerm extractEntry vendor/handlebars/lib/handlebars/source.rb
+840 silly gunzTarPerm modified mode [ 'vendor/handlebars/lib/handlebars/source.rb', 436, 420 ]
+841 silly gunzTarPerm extractEntry vendor/handlebars/package.json
+842 silly gunzTarPerm modified mode [ 'vendor/handlebars/package.json', 436, 420 ]
+843 silly gunzTarPerm extractEntry vendor/jquery.cookie/
+844 silly gunzTarPerm modified mode [ 'vendor/jquery.cookie/', 509, 493 ]
+845 silly gunzTarPerm extractEntry vendor/jquery.cookie/.bower.json
+846 silly gunzTarPerm modified mode [ 'vendor/jquery.cookie/.bower.json', 436, 420 ]
+847 silly gunzTarPerm extractEntry vendor/jquery.cookie/bower.json
+848 silly gunzTarPerm modified mode [ 'vendor/jquery.cookie/bower.json', 436, 420 ]
+849 silly gunzTarPerm extractEntry vendor/jquery.cookie/jquery.cookie.js
+850 silly gunzTarPerm modified mode [ 'vendor/jquery.cookie/jquery.cookie.js', 436, 420 ]
+851 silly gunzTarPerm extractEntry vendor/jquery/
+852 silly gunzTarPerm modified mode [ 'vendor/jquery/', 509, 493 ]
+853 silly gunzTarPerm extractEntry vendor/jquery/.bower.json
+854 silly gunzTarPerm modified mode [ 'vendor/jquery/.bower.json', 436, 420 ]
+855 silly gunzTarPerm extractEntry vendor/jquery/MIT-LICENSE.txt
+856 silly gunzTarPerm modified mode [ 'vendor/jquery/MIT-LICENSE.txt', 436, 420 ]
+857 silly gunzTarPerm extractEntry vendor/jquery/bower.json
+858 silly gunzTarPerm modified mode [ 'vendor/jquery/bower.json', 436, 420 ]
+859 silly gunzTarPerm extractEntry vendor/jquery/dist/
+860 silly gunzTarPerm modified mode [ 'vendor/jquery/dist/', 509, 493 ]
+861 silly gunzTarPerm extractEntry vendor/jquery/dist/jquery.js
+862 silly gunzTarPerm modified mode [ 'vendor/jquery/dist/jquery.js', 436, 420 ]
+863 silly gunzTarPerm extractEntry vendor/jquery/dist/jquery.min.js
+864 silly gunzTarPerm modified mode [ 'vendor/jquery/dist/jquery.min.js', 436, 420 ]
+865 silly gunzTarPerm extractEntry vendor/jquery/dist/jquery.min.map
+866 silly gunzTarPerm modified mode [ 'vendor/jquery/dist/jquery.min.map', 436, 420 ]
+867 silly gunzTarPerm extractEntry vendor/jquery/src/
+868 silly gunzTarPerm modified mode [ 'vendor/jquery/src/', 509, 493 ]
+869 silly gunzTarPerm extractEntry vendor/jquery/src/ajax.js
+870 silly gunzTarPerm modified mode [ 'vendor/jquery/src/ajax.js', 436, 420 ]
+871 silly gunzTarPerm extractEntry vendor/jquery/src/ajax/
+872 silly gunzTarPerm modified mode [ 'vendor/jquery/src/ajax/', 509, 493 ]
+873 silly gunzTarPerm extractEntry vendor/jquery/src/ajax/jsonp.js
+874 silly gunzTarPerm modified mode [ 'vendor/jquery/src/ajax/jsonp.js', 436, 420 ]
+875 silly gunzTarPerm extractEntry vendor/jquery/src/ajax/load.js
+876 silly gunzTarPerm modified mode [ 'vendor/jquery/src/ajax/load.js', 436, 420 ]
+877 silly gunzTarPerm extractEntry vendor/jquery/src/ajax/parseJSON.js
+878 silly gunzTarPerm modified mode [ 'vendor/jquery/src/ajax/parseJSON.js', 436, 420 ]
+879 silly gunzTarPerm extractEntry vendor/jquery/src/ajax/parseXML.js
+880 silly gunzTarPerm modified mode [ 'vendor/jquery/src/ajax/parseXML.js', 436, 420 ]
+881 silly gunzTarPerm extractEntry vendor/jquery/src/ajax/script.js
+882 silly gunzTarPerm modified mode [ 'vendor/jquery/src/ajax/script.js', 436, 420 ]
+883 silly gunzTarPerm extractEntry vendor/jquery/src/ajax/var/
+884 silly gunzTarPerm modified mode [ 'vendor/jquery/src/ajax/var/', 509, 493 ]
+885 silly gunzTarPerm extractEntry vendor/jquery/src/ajax/var/nonce.js
+886 silly gunzTarPerm modified mode [ 'vendor/jquery/src/ajax/var/nonce.js', 436, 420 ]
+887 silly gunzTarPerm extractEntry vendor/jquery/src/ajax/var/rquery.js
+888 silly gunzTarPerm modified mode [ 'vendor/jquery/src/ajax/var/rquery.js', 436, 420 ]
+889 silly gunzTarPerm extractEntry vendor/jquery/src/ajax/xhr.js
+890 silly gunzTarPerm modified mode [ 'vendor/jquery/src/ajax/xhr.js', 436, 420 ]
+891 silly gunzTarPerm extractEntry vendor/jquery/src/attributes.js
+892 silly gunzTarPerm modified mode [ 'vendor/jquery/src/attributes.js', 436, 420 ]
+893 silly gunzTarPerm extractEntry vendor/jquery/src/attributes/
+894 silly gunzTarPerm modified mode [ 'vendor/jquery/src/attributes/', 509, 493 ]
+895 silly gunzTarPerm extractEntry vendor/jquery/src/attributes/attr.js
+896 silly gunzTarPerm modified mode [ 'vendor/jquery/src/attributes/attr.js', 436, 420 ]
+897 silly gunzTarPerm extractEntry vendor/jquery/src/attributes/classes.js
+898 silly gunzTarPerm modified mode [ 'vendor/jquery/src/attributes/classes.js', 436, 420 ]
+899 silly gunzTarPerm extractEntry vendor/jquery/src/attributes/prop.js
+900 silly gunzTarPerm modified mode [ 'vendor/jquery/src/attributes/prop.js', 436, 420 ]
+901 silly gunzTarPerm extractEntry vendor/jquery/src/attributes/support.js
+902 silly gunzTarPerm modified mode [ 'vendor/jquery/src/attributes/support.js', 436, 420 ]
+903 silly gunzTarPerm extractEntry vendor/jquery/src/attributes/val.js
+904 silly gunzTarPerm modified mode [ 'vendor/jquery/src/attributes/val.js', 436, 420 ]
+905 silly gunzTarPerm extractEntry vendor/jquery/src/callbacks.js
+906 silly gunzTarPerm modified mode [ 'vendor/jquery/src/callbacks.js', 436, 420 ]
+907 silly gunzTarPerm extractEntry vendor/jquery/src/core.js
+908 silly gunzTarPerm modified mode [ 'vendor/jquery/src/core.js', 436, 420 ]
+909 silly gunzTarPerm extractEntry vendor/jquery/src/core/
+910 silly gunzTarPerm modified mode [ 'vendor/jquery/src/core/', 509, 493 ]
+911 silly gunzTarPerm extractEntry vendor/jquery/src/core/access.js
+912 silly gunzTarPerm modified mode [ 'vendor/jquery/src/core/access.js', 436, 420 ]
+913 silly gunzTarPerm extractEntry vendor/jquery/src/core/init.js
+914 silly gunzTarPerm modified mode [ 'vendor/jquery/src/core/init.js', 436, 420 ]
+915 silly gunzTarPerm extractEntry vendor/jquery/src/core/parseHTML.js
+916 silly gunzTarPerm modified mode [ 'vendor/jquery/src/core/parseHTML.js', 436, 420 ]
+917 silly gunzTarPerm extractEntry vendor/jquery/src/core/ready.js
+918 silly gunzTarPerm modified mode [ 'vendor/jquery/src/core/ready.js', 436, 420 ]
+919 silly gunzTarPerm extractEntry vendor/jquery/src/core/var/
+920 silly gunzTarPerm modified mode [ 'vendor/jquery/src/core/var/', 509, 493 ]
+921 silly gunzTarPerm extractEntry vendor/jquery/src/core/var/rsingleTag.js
+922 silly gunzTarPerm modified mode [ 'vendor/jquery/src/core/var/rsingleTag.js', 436, 420 ]
+923 silly gunzTarPerm extractEntry vendor/jquery/src/css.js
+924 silly gunzTarPerm modified mode [ 'vendor/jquery/src/css.js', 436, 420 ]
+925 silly gunzTarPerm extractEntry vendor/jquery/src/css/
+926 silly gunzTarPerm modified mode [ 'vendor/jquery/src/css/', 509, 493 ]
+927 silly gunzTarPerm extractEntry vendor/jquery/src/css/addGetHookIf.js
+928 silly gunzTarPerm modified mode [ 'vendor/jquery/src/css/addGetHookIf.js', 436, 420 ]
+929 silly gunzTarPerm extractEntry vendor/jquery/src/css/curCSS.js
+930 silly gunzTarPerm modified mode [ 'vendor/jquery/src/css/curCSS.js', 436, 420 ]
+931 silly gunzTarPerm extractEntry vendor/jquery/src/css/defaultDisplay.js
+932 silly gunzTarPerm modified mode [ 'vendor/jquery/src/css/defaultDisplay.js', 436, 420 ]
+933 silly gunzTarPerm extractEntry vendor/jquery/src/css/hiddenVisibleSelectors.js
+934 silly gunzTarPerm modified mode [ 'vendor/jquery/src/css/hiddenVisibleSelectors.js', 436, 420 ]
+935 silly gunzTarPerm extractEntry vendor/jquery/src/css/support.js
+936 silly gunzTarPerm modified mode [ 'vendor/jquery/src/css/support.js', 436, 420 ]
+937 silly gunzTarPerm extractEntry vendor/jquery/src/css/swap.js
+938 silly gunzTarPerm modified mode [ 'vendor/jquery/src/css/swap.js', 436, 420 ]
+939 silly gunzTarPerm extractEntry vendor/jquery/src/css/var/
+940 silly gunzTarPerm modified mode [ 'vendor/jquery/src/css/var/', 509, 493 ]
+941 silly gunzTarPerm extractEntry vendor/jquery/src/css/var/cssExpand.js
+942 silly gunzTarPerm modified mode [ 'vendor/jquery/src/css/var/cssExpand.js', 436, 420 ]
+943 silly gunzTarPerm extractEntry vendor/jquery/src/css/var/getStyles.js
+944 silly gunzTarPerm modified mode [ 'vendor/jquery/src/css/var/getStyles.js', 436, 420 ]
+945 silly gunzTarPerm extractEntry vendor/jquery/src/css/var/isHidden.js
+946 silly gunzTarPerm modified mode [ 'vendor/jquery/src/css/var/isHidden.js', 436, 420 ]
+947 silly gunzTarPerm extractEntry vendor/jquery/src/css/var/rmargin.js
+948 silly gunzTarPerm modified mode [ 'vendor/jquery/src/css/var/rmargin.js', 436, 420 ]
+949 silly gunzTarPerm extractEntry vendor/jquery/src/css/var/rnumnonpx.js
+950 silly gunzTarPerm modified mode [ 'vendor/jquery/src/css/var/rnumnonpx.js', 436, 420 ]
+951 silly gunzTarPerm extractEntry vendor/jquery/src/data.js
+952 silly gunzTarPerm modified mode [ 'vendor/jquery/src/data.js', 436, 420 ]
+953 silly gunzTarPerm extractEntry vendor/jquery/src/data/
+954 silly gunzTarPerm modified mode [ 'vendor/jquery/src/data/', 509, 493 ]
+955 silly gunzTarPerm extractEntry vendor/jquery/src/data/Data.js
+956 silly gunzTarPerm modified mode [ 'vendor/jquery/src/data/Data.js', 436, 420 ]
+957 silly gunzTarPerm extractEntry vendor/jquery/src/data/accepts.js
+958 silly gunzTarPerm modified mode [ 'vendor/jquery/src/data/accepts.js', 436, 420 ]
+959 silly gunzTarPerm extractEntry vendor/jquery/src/data/var/
+960 silly gunzTarPerm modified mode [ 'vendor/jquery/src/data/var/', 509, 493 ]
+961 silly gunzTarPerm extractEntry vendor/jquery/src/data/var/data_priv.js
+962 silly gunzTarPerm modified mode [ 'vendor/jquery/src/data/var/data_priv.js', 436, 420 ]
+963 silly gunzTarPerm extractEntry vendor/jquery/src/data/var/data_user.js
+964 silly gunzTarPerm modified mode [ 'vendor/jquery/src/data/var/data_user.js', 436, 420 ]
+965 silly gunzTarPerm extractEntry vendor/jquery/src/deferred.js
+966 silly gunzTarPerm modified mode [ 'vendor/jquery/src/deferred.js', 436, 420 ]
+967 silly gunzTarPerm extractEntry vendor/jquery/src/deprecated.js
+968 silly gunzTarPerm modified mode [ 'vendor/jquery/src/deprecated.js', 436, 420 ]
+969 silly gunzTarPerm extractEntry vendor/jquery/src/dimensions.js
+970 silly gunzTarPerm modified mode [ 'vendor/jquery/src/dimensions.js', 436, 420 ]
+971 silly gunzTarPerm extractEntry vendor/jquery/src/effects.js
+972 silly gunzTarPerm modified mode [ 'vendor/jquery/src/effects.js', 436, 420 ]
+973 silly gunzTarPerm extractEntry vendor/jquery/src/effects/
+974 silly gunzTarPerm modified mode [ 'vendor/jquery/src/effects/', 509, 493 ]
+975 silly gunzTarPerm extractEntry vendor/jquery/src/effects/Tween.js
+976 silly gunzTarPerm modified mode [ 'vendor/jquery/src/effects/Tween.js', 436, 420 ]
+977 silly gunzTarPerm extractEntry vendor/jquery/src/effects/animatedSelector.js
+978 silly gunzTarPerm modified mode [ 'vendor/jquery/src/effects/animatedSelector.js', 436, 420 ]
+979 silly gunzTarPerm extractEntry vendor/jquery/src/event.js
+980 silly gunzTarPerm modified mode [ 'vendor/jquery/src/event.js', 436, 420 ]
+981 silly gunzTarPerm extractEntry vendor/jquery/src/event/
+982 silly gunzTarPerm modified mode [ 'vendor/jquery/src/event/', 509, 493 ]
+983 silly gunzTarPerm extractEntry vendor/jquery/src/event/ajax.js
+984 silly gunzTarPerm modified mode [ 'vendor/jquery/src/event/ajax.js', 436, 420 ]
+985 silly gunzTarPerm extractEntry vendor/jquery/src/event/alias.js
+986 silly gunzTarPerm modified mode [ 'vendor/jquery/src/event/alias.js', 436, 420 ]
+987 silly gunzTarPerm extractEntry vendor/jquery/src/event/support.js
+988 silly gunzTarPerm modified mode [ 'vendor/jquery/src/event/support.js', 436, 420 ]
+989 silly gunzTarPerm extractEntry vendor/jquery/src/exports/
+990 silly gunzTarPerm modified mode [ 'vendor/jquery/src/exports/', 509, 493 ]
+991 silly gunzTarPerm extractEntry vendor/jquery/src/exports/amd.js
+992 silly gunzTarPerm modified mode [ 'vendor/jquery/src/exports/amd.js', 436, 420 ]
+993 silly gunzTarPerm extractEntry vendor/jquery/src/exports/global.js
+994 silly gunzTarPerm modified mode [ 'vendor/jquery/src/exports/global.js', 436, 420 ]
+995 silly gunzTarPerm extractEntry vendor/jquery/src/intro.js
+996 silly gunzTarPerm modified mode [ 'vendor/jquery/src/intro.js', 436, 420 ]
+997 silly gunzTarPerm extractEntry vendor/jquery/src/jquery.js
+998 silly gunzTarPerm modified mode [ 'vendor/jquery/src/jquery.js', 436, 420 ]
+999 silly gunzTarPerm extractEntry vendor/jquery/src/manipulation.js
+1000 silly gunzTarPerm modified mode [ 'vendor/jquery/src/manipulation.js', 436, 420 ]
+1001 silly gunzTarPerm extractEntry vendor/jquery/src/manipulation/
+1002 silly gunzTarPerm modified mode [ 'vendor/jquery/src/manipulation/', 509, 493 ]
+1003 silly gunzTarPerm extractEntry vendor/jquery/src/manipulation/_evalUrl.js
+1004 silly gunzTarPerm modified mode [ 'vendor/jquery/src/manipulation/_evalUrl.js', 436, 420 ]
+1005 silly gunzTarPerm extractEntry vendor/jquery/src/manipulation/support.js
+1006 silly gunzTarPerm modified mode [ 'vendor/jquery/src/manipulation/support.js', 436, 420 ]
+1007 silly gunzTarPerm extractEntry vendor/jquery/src/manipulation/var/
+1008 silly gunzTarPerm modified mode [ 'vendor/jquery/src/manipulation/var/', 509, 493 ]
+1009 silly gunzTarPerm extractEntry vendor/jquery/src/manipulation/var/rcheckableType.js
+1010 silly gunzTarPerm modified mode [ 'vendor/jquery/src/manipulation/var/rcheckableType.js',
+1010 silly gunzTarPerm   436,
+1010 silly gunzTarPerm   420 ]
+1011 silly gunzTarPerm extractEntry vendor/jquery/src/offset.js
+1012 silly gunzTarPerm modified mode [ 'vendor/jquery/src/offset.js', 436, 420 ]
+1013 silly gunzTarPerm extractEntry vendor/jquery/src/outro.js
+1014 silly gunzTarPerm modified mode [ 'vendor/jquery/src/outro.js', 436, 420 ]
+1015 silly gunzTarPerm extractEntry vendor/jquery/src/queue.js
+1016 silly gunzTarPerm modified mode [ 'vendor/jquery/src/queue.js', 436, 420 ]
+1017 silly gunzTarPerm extractEntry vendor/jquery/src/queue/
+1018 silly gunzTarPerm modified mode [ 'vendor/jquery/src/queue/', 509, 493 ]
+1019 silly gunzTarPerm extractEntry vendor/jquery/src/queue/delay.js
+1020 silly gunzTarPerm modified mode [ 'vendor/jquery/src/queue/delay.js', 436, 420 ]
+1021 silly gunzTarPerm extractEntry vendor/jquery/src/selector-native.js
+1022 silly gunzTarPerm modified mode [ 'vendor/jquery/src/selector-native.js', 436, 420 ]
+1023 silly gunzTarPerm extractEntry vendor/jquery/src/selector-sizzle.js
+1024 silly gunzTarPerm modified mode [ 'vendor/jquery/src/selector-sizzle.js', 436, 420 ]
+1025 silly gunzTarPerm extractEntry vendor/jquery/src/selector.js
+1026 silly gunzTarPerm modified mode [ 'vendor/jquery/src/selector.js', 436, 420 ]
+1027 silly gunzTarPerm extractEntry vendor/jquery/src/serialize.js
+1028 silly gunzTarPerm modified mode [ 'vendor/jquery/src/serialize.js', 436, 420 ]
+1029 silly gunzTarPerm extractEntry vendor/jquery/src/sizzle/
+1030 silly gunzTarPerm modified mode [ 'vendor/jquery/src/sizzle/', 509, 493 ]
+1031 silly gunzTarPerm extractEntry vendor/jquery/src/sizzle/dist/
+1032 silly gunzTarPerm modified mode [ 'vendor/jquery/src/sizzle/dist/', 509, 493 ]
+1033 silly gunzTarPerm extractEntry vendor/jquery/src/sizzle/dist/sizzle.js
+1034 silly gunzTarPerm modified mode [ 'vendor/jquery/src/sizzle/dist/sizzle.js', 436, 420 ]
+1035 silly gunzTarPerm extractEntry vendor/jquery/src/sizzle/dist/sizzle.min.js
+1036 silly gunzTarPerm modified mode [ 'vendor/jquery/src/sizzle/dist/sizzle.min.js', 436, 420 ]
+1037 silly gunzTarPerm extractEntry vendor/jquery/src/sizzle/dist/sizzle.min.map
+1038 silly gunzTarPerm modified mode [ 'vendor/jquery/src/sizzle/dist/sizzle.min.map', 436, 420 ]
+1039 silly gunzTarPerm extractEntry vendor/jquery/src/traversing.js
+1040 silly gunzTarPerm modified mode [ 'vendor/jquery/src/traversing.js', 436, 420 ]
+1041 silly gunzTarPerm extractEntry vendor/jquery/src/traversing/
+1042 silly gunzTarPerm modified mode [ 'vendor/jquery/src/traversing/', 509, 493 ]
+1043 silly gunzTarPerm extractEntry vendor/jquery/src/traversing/findFilter.js
+1044 silly gunzTarPerm modified mode [ 'vendor/jquery/src/traversing/findFilter.js', 436, 420 ]
+1045 silly gunzTarPerm extractEntry vendor/jquery/src/traversing/var/
+1046 silly gunzTarPerm modified mode [ 'vendor/jquery/src/traversing/var/', 509, 493 ]
+1047 silly gunzTarPerm extractEntry vendor/jquery/src/traversing/var/rneedsContext.js
+1048 silly gunzTarPerm modified mode [ 'vendor/jquery/src/traversing/var/rneedsContext.js', 436, 420 ]
+1049 silly gunzTarPerm extractEntry vendor/jquery/src/var/
+1050 silly gunzTarPerm modified mode [ 'vendor/jquery/src/var/', 509, 493 ]
+1051 silly gunzTarPerm extractEntry vendor/jquery/src/var/arr.js
+1052 silly gunzTarPerm modified mode [ 'vendor/jquery/src/var/arr.js', 436, 420 ]
+1053 silly gunzTarPerm extractEntry vendor/jquery/src/var/class2type.js
+1054 silly gunzTarPerm modified mode [ 'vendor/jquery/src/var/class2type.js', 436, 420 ]
+1055 silly gunzTarPerm extractEntry vendor/jquery/src/var/concat.js
+1056 silly gunzTarPerm modified mode [ 'vendor/jquery/src/var/concat.js', 436, 420 ]
+1057 silly gunzTarPerm extractEntry vendor/jquery/src/var/hasOwn.js
+1058 silly gunzTarPerm modified mode [ 'vendor/jquery/src/var/hasOwn.js', 436, 420 ]
+1059 silly gunzTarPerm extractEntry vendor/jquery/src/var/indexOf.js
+1060 silly gunzTarPerm modified mode [ 'vendor/jquery/src/var/indexOf.js', 436, 420 ]
+1061 silly gunzTarPerm extractEntry vendor/jquery/src/var/pnum.js
+1062 silly gunzTarPerm modified mode [ 'vendor/jquery/src/var/pnum.js', 436, 420 ]
+1063 silly gunzTarPerm extractEntry vendor/jquery/src/var/push.js
+1064 silly gunzTarPerm modified mode [ 'vendor/jquery/src/var/push.js', 436, 420 ]
+1065 silly gunzTarPerm extractEntry vendor/jquery/src/var/rnotwhite.js
+1066 silly gunzTarPerm modified mode [ 'vendor/jquery/src/var/rnotwhite.js', 436, 420 ]
+1067 silly gunzTarPerm extractEntry vendor/jquery/src/var/slice.js
+1068 silly gunzTarPerm modified mode [ 'vendor/jquery/src/var/slice.js', 436, 420 ]
+1069 silly gunzTarPerm extractEntry vendor/jquery/src/var/strundefined.js
+1070 silly gunzTarPerm modified mode [ 'vendor/jquery/src/var/strundefined.js', 436, 420 ]
+1071 silly gunzTarPerm extractEntry vendor/jquery/src/var/support.js
+1072 silly gunzTarPerm modified mode [ 'vendor/jquery/src/var/support.js', 436, 420 ]
+1073 silly gunzTarPerm extractEntry vendor/jquery/src/var/toString.js
+1074 silly gunzTarPerm modified mode [ 'vendor/jquery/src/var/toString.js', 436, 420 ]
+1075 silly gunzTarPerm extractEntry vendor/jquery/src/wrap.js
+1076 silly gunzTarPerm modified mode [ 'vendor/jquery/src/wrap.js', 436, 420 ]
+1077 silly gunzTarPerm extractEntry vendor/lodash/
+1078 silly gunzTarPerm modified mode [ 'vendor/lodash/', 509, 493 ]
+1079 silly gunzTarPerm extractEntry vendor/lodash/.bower.json
+1080 silly gunzTarPerm modified mode [ 'vendor/lodash/.bower.json', 436, 420 ]
+1081 silly gunzTarPerm extractEntry vendor/lodash/LICENSE.txt
+1082 silly gunzTarPerm modified mode [ 'vendor/lodash/LICENSE.txt', 436, 420 ]
+1083 silly gunzTarPerm extractEntry vendor/lodash/bower.json
+1084 silly gunzTarPerm modified mode [ 'vendor/lodash/bower.json', 436, 420 ]
+1085 silly gunzTarPerm extractEntry vendor/lodash/lodash.js
+1086 silly gunzTarPerm modified mode [ 'vendor/lodash/lodash.js', 436, 420 ]
+1087 silly gunzTarPerm extractEntry vendor/lodash/lodash.min.js
+1088 silly gunzTarPerm modified mode [ 'vendor/lodash/lodash.min.js', 436, 420 ]
+1089 silly gunzTarPerm extractEntry vendor/underscore/
+1090 silly gunzTarPerm modified mode [ 'vendor/underscore/', 509, 493 ]
+1091 silly gunzTarPerm extractEntry vendor/underscore/.bower.json
+1092 silly gunzTarPerm modified mode [ 'vendor/underscore/.bower.json', 436, 420 ]
+1093 silly gunzTarPerm extractEntry vendor/underscore/LICENSE
+1094 silly gunzTarPerm modified mode [ 'vendor/underscore/LICENSE', 436, 420 ]
+1095 silly gunzTarPerm extractEntry vendor/underscore/README.md
+1096 silly gunzTarPerm modified mode [ 'vendor/underscore/README.md', 436, 420 ]
+1097 silly gunzTarPerm extractEntry vendor/underscore/bower.json
+1098 silly gunzTarPerm modified mode [ 'vendor/underscore/bower.json', 436, 420 ]
+1099 silly gunzTarPerm extractEntry vendor/underscore/underscore-min.js
+1100 silly gunzTarPerm modified mode [ 'vendor/underscore/underscore-min.js', 436, 420 ]
+1101 silly gunzTarPerm extractEntry vendor/underscore/underscore-min.map
+1102 silly gunzTarPerm modified mode [ 'vendor/underscore/underscore-min.map', 436, 420 ]
+1103 silly gunzTarPerm extractEntry vendor/underscore/underscore.js
+1104 silly gunzTarPerm modified mode [ 'vendor/underscore/underscore.js', 436, 420 ]
+1105 silly lockFile 7e78b7f6--2607063390314579-tmp-tgz-unpack tar:///var/folders/qs/fz2wcv9527dddw1cmwc7yqwc0000gn/T/npm-56448-p2dpauUo/1435511511688-0.2607063390314579/tmp.tgz-unpack
+1106 silly lockFile 7e78b7f6--2607063390314579-tmp-tgz-unpack tar:///var/folders/qs/fz2wcv9527dddw1cmwc7yqwc0000gn/T/npm-56448-p2dpauUo/1435511511688-0.2607063390314579/tmp.tgz-unpack
+1107 silly lockFile 4355bd99-11688-0-2607063390314579-tmp-tgz tar:///var/folders/qs/fz2wcv9527dddw1cmwc7yqwc0000gn/T/npm-56448-p2dpauUo/1435511511688-0.2607063390314579/tmp.tgz
+1108 silly lockFile 4355bd99-11688-0-2607063390314579-tmp-tgz tar:///var/folders/qs/fz2wcv9527dddw1cmwc7yqwc0000gn/T/npm-56448-p2dpauUo/1435511511688-0.2607063390314579/tmp.tgz
+1109 silly lockFile 0a23dc31-github-com-vancarney-backbone-ui https://github.com/vancarney/backbone-ui
+1110 silly lockFile 0a23dc31-github-com-vancarney-backbone-ui https://github.com/vancarney/backbone-ui
+1111 error Error: EACCES, mkdir '/Users/van/.npm/bower/1.4.1/package'
+1111 error  { [Error: EACCES, mkdir '/Users/van/.npm/bower/1.4.1/package']
+1111 error   errno: 3,
+1111 error   code: 'EACCES',
+1111 error   path: '/Users/van/.npm/bower/1.4.1/package',
+1111 error   parent: 'apihero-ui-widget-jplayer' }
+1112 error Please try running this command again as root/Administrator.
+1113 error System Darwin 14.3.0
+1114 error command "node" "/usr/local/bin/npm" "install"
+1115 error cwd /Users/van/Documents/workspace/apihero-ui-widget-jplayer
+1116 error node -v v0.10.35
+1117 error npm -v 1.4.28
+1118 error path /Users/van/.npm/bower/1.4.1/package
+1119 error code EACCES
+1120 error errno 3
+1121 error stack Error: EACCES, mkdir '/Users/van/.npm/bower/1.4.1/package'
+1122 verbose exit [ 3, true ]
