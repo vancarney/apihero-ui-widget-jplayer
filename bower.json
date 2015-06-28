@@ -1,0 +1,17 @@
+{
+  "name": "apihero-ui-widget-jplayer",
+  "version": "0.0.1-alpha",
+  "authors": [
+    "Van Carney <carney.van@gmail.com>"
+  ],
+  "main": "public/js/app.js",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "apihero-ui":"git+https://github.com/vancarney/backbone-ui#apihero-ui"
+  },
+  "devDependencies": {
+
+  }
+
+}
