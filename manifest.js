@@ -8,7 +8,7 @@
 //
 
 
-var Mincer = require('mincer');
+var Mincer = require('apihero-module-mincer').mincer;
 var path   = require('path');
 
 

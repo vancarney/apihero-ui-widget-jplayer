@@ -9,22 +9,24 @@
   },
   "version": "0.0.1-alpha",
   "dependencies": {
-    "lodash": "^3.9.3",
-    "uglify-js": "^2.4.15",
+    "apihero-module-browserify": "git+https://github.com/vancarney/apihero-module-browserify.git",
+    "apihero-module-jade": "git+https://github.com/vancarney/apihero-module-jade.git",
+    "apihero-module-mincer": "git+https://github.com/vancarney/apihero-module-mincer.git",
     "coffee-script": "^1.9.3",
-    "less":"^2.5.1",
-    "mincer":"^1.3.0",
-    "bower": "latest"
+    "less": "^2.5.1",
+    "lodash": "^3.9.3",
+    "uglify-js": "^2.4.15"
   },
   "devDependencies": {
-	"mocha": "^2.2.5",
+    "mocha": "^2.2.5",
     "chai": "^3.0.0",
-  	"supertest": "^1.0.1",
-  	"loopback-testing": "^1.1.0",
-  	"apihero-ui":"git+https://github.com/vancarney/backbone-ui#apihero-ui",
-    "docco": "latest"
+    "supertest": "^1.0.1",
+    "loopback-testing": "^1.1.0",
+    "bower": "latest",
+    "docco": "latest",
+    "autoprefixer-core": "latest"
   },
-  "scripts":{
-    "test":""
+  "scripts": {
+    "test": ""
   }
 }

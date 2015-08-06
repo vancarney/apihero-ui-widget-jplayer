@@ -6,7 +6,7 @@
 //
 
 
-var Mincer = require('mincer');
+var Mincer = require('apihero-module-mincer').mincer;
 
 
 //
@@ -38,9 +38,12 @@ var environment = module.exports = new Mincer.Environment('./');
 //
 
 
-environment.appendPath('assets/coffee');
-environment.appendPath('assets/less');
-environment.appendPath('assets/jade');
+environment.appendPath('bower_components/apihero-ui/assets/coffee');
+environment.appendPath('bower_components/apihero-ui/assets/less');
+environment.appendPath('bower_components/apihero-ui/assets/jade');
+environment.appendPath('src/coffee');
+environment.appendPath('src/less');
+environment.appendPath('src/jade');
 environment.appendPath('vendor');
 
 
