@@ -43,8 +43,8 @@ class ApiHeroUI.widgets.jPlayerUI extends ApiHeroUI.core.View
       # @player.load m.get "mp3_file_path"
       # @hud.setModel m
   subviews:
-    "#trackHUD": ApiHeroUI.widgets.jPlayer.ui.components.PlayerDisplay
-    ".ctrl_buttons": ApiHeroUI.widgets.jPlayer.ui.components.PlayerControls
+    "#trackHUD": ApiHeroUI.widgets.jPlayer.components.PlayerDisplay
+    ".ctrl_buttons": ApiHeroUI.widgets.jPlayer.components.PlayerControls
   init:(o)->
     if (@model)
       @model.fetch
@@ -56,9 +56,6 @@ class ApiHeroUI.widgets.jPlayerUI extends ApiHeroUI.core.View
       @$el.find(".time").text "00:00"
       @hud.setModel ApiHeroUI.widgets.jPlayer.queue.getCurrentTrack()
     # @discovery = new global.Tunstr.Discovery
-
-    
-
     @[".ctrl_buttons"].on "play", @play, @
     @[".ctrl_buttons"].on "pause", @pause, @
     @[".ctrl_buttons"].on "fadv", =>
@@ -80,9 +77,7 @@ class ApiHeroUI.widgets.jPlayerUI extends ApiHeroUI.core.View
       @$el.find(".time").text tArr.join ':'
     )
     ApiHeroUI.widgets.jPlayer.player.on("trackEnded", (evt)=>
-      if ApiHeroUI.widgets.jPlayer.queue._discoveryMode
-        ApiHeroUI.widgets.jPlayer.queue.discover()
-      else if @play_mode == "playlist"
+      if @play_mode == "playlist"
         @fadv()
       else
         @pause()
