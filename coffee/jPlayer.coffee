@@ -32,6 +32,12 @@ class ApiHeroUI.widgets.jPlayer.QueueClass extends Backbone.Collection
     defaults:
       file:null
       type:"mp3"
+ApiHeroUI.widgets.jPlayer.utils =
+  isSafari:->
+    ($.browser.webkit && (!window.navigator.userAgent.match /.*(Chrome)+.*/))?
+console.log ApiHeroUI.widgets.jPlayer.utils
+ApiHeroUI.widgets.jPlayer.controls = {}
+ApiHeroUI.widgets.jPlayer.components = {}
 ApiHeroUI.widgets.jPlayer::defaults = 
   swfPath:"/"
   supplied: "#{if ApiHeroUI.widgets.jPlayer.utils.isSafari() then 'mp3' else 'rtmpv'}"
@@ -60,9 +66,3 @@ ApiHeroUI.widgets.jPlayer::defaults =
       @trigger "durationChange", (@_duration = evt.jPlayer.status.duration)
   ended: (evt)=>
     @trigger "trackEnded"
-ApiHeroUI.widgets.jPlayer.utils =
-  isSafari:->
-    ($.browser.webkit && (!window.navigator.userAgent.match /.*(Chrome)+.*/))?
-console.log ApiHeroUI.widgets.jPlayer.utils
-ApiHeroUI.widgets.jPlayer.controls = {}
-ApiHeroUI.widgets.jPlayer.components = {}
