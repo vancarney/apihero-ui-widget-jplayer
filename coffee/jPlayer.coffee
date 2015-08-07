@@ -12,7 +12,7 @@ class ApiHeroUI.widgets.jPlayer extends ApiHeroUI.core.View
   isReady:()->
     @_ready
   load:(url)->
-    o =  if global.isSafari() then {mp3:url} else {rtmpv:url}
+    o =  if ApiHeroUI.widgets.jPlayer.utils.isSafari() then {mp3:url} else {rtmpv:url}
     @_player.jPlayer "setMedia", o
     @play() if @autoplay
   autoplay:true
@@ -34,7 +34,7 @@ class ApiHeroUI.widgets.jPlayer.QueueClass extends Backbone.Collection
       type:"mp3"
 ApiHeroUI.widgets.jPlayer::defaults = 
   swfPath:"/"
-  supplied: "#{if global.isSafari() then 'mp3' else 'rtmpv'}"
+  supplied: "#{if ApiHeroUI.widgets.jPlayer.utils.isSafari() then 'mp3' else 'rtmpv'}"
   preload: "metadata"
   ready: ()=>
     @_ready = true
@@ -60,5 +60,8 @@ ApiHeroUI.widgets.jPlayer::defaults =
       @trigger "durationChange", (@_duration = evt.jPlayer.status.duration)
   ended: (evt)=>
     @trigger "trackEnded"
+ApiHeroUI.widgets.jPlayer.utils =
+  isSafari:->
+    ($.browser.webkit && (!window.navigator.userAgent.match /.*(Chrome)+.*/))?
 ApiHeroUI.widgets.jPlayer.controls = {}
 ApiHeroUI.widgets.jPlayer.components = {}

@@ -8,7 +8,7 @@ class ApiHeroUI.widgets.jPlayerUI extends ApiHeroUI.core.View
     @hud.setModel (m = @model.at (@_index = idx))
     # console.log "set track:"
     # console.log m
-    # global.app.player.load m.get "mp3_file_path"
+    # ApiHeroUI.widgets.jPlayer.player.load m.get "mp3_file_path"
   fadv:->
     # if (@play_mode == "discovery")
       # return @discovery.discover()
@@ -17,7 +17,7 @@ class ApiHeroUI.widgets.jPlayerUI extends ApiHeroUI.core.View
       # @hud.setModel @model.at @_index
   frev:->
     # if ((idx = _index - 1) >= 0) && (m = @model.at(@_index = idx))?
-      # global.app.player.load  m.get "mp3_file_path"
+      # ApiHeroUI.widgets.jPlayer.player.load  m.get "mp3_file_path"
       # @hud.setModel @model.at @_index
   fetch:(url)->   
     $.get url, (d,x,r)=>
@@ -51,7 +51,7 @@ class ApiHeroUI.widgets.jPlayerUI extends ApiHeroUI.core.View
         success:(c,r)=>
           console.log "loaded"
           # @fadv()
-    global.app.player.on "loadStart", (evt)=>
+    ApiHeroUI.widgets.jPlayer.player.on "loadStart", (evt)=>
       console.log "loadstart"
       @$el.find(".time").text "00:00"
       @hud.setModel ApiHeroUI.widgets.jPlayer.queue.getCurrentTrack()
@@ -62,26 +62,26 @@ class ApiHeroUI.widgets.jPlayerUI extends ApiHeroUI.core.View
     @[".ctrl_buttons"].on "play", @play, @
     @[".ctrl_buttons"].on "pause", @pause, @
     @[".ctrl_buttons"].on "fadv", =>
-      global.app.queue.next()
+      ApiHeroUI.widgets.jPlayer.queue.next()
     @[".ctrl_buttons"].on "frev", =>
-      global.app.queue.prev()
+      ApiHeroUI.widgets.jPlayer.queue.prev()
     @[".ctrl_buttons"].on "playlist", (tog)=>
       return unless @hud?
       @hud[if tog then 'expand' else 'collapse']()
     @[".ctrl_buttons"].on "share", =>
       @trigger "share"
     @[".ctrl_buttons"].on "discover", =>
-      global.app.queue.discover()
-    global.app.player.on( "play", =>
+      ApiHeroUI.widgets.jPlayer.queue.discover()
+    ApiHeroUI.widgets.jPlayer.player.on( "play", =>
       console.log "play"
       $(".ppause").addClass "selected"
     ).on("timeUpdate", (d)=>
       tArr.shift() if (tArr = d.timestamp.split ':')[0] == '0'
       @$el.find(".time").text tArr.join ':'
     )
-    global.app.player.on("trackEnded", (evt)=>
-      if global.app.queue._discoveryMode
-        global.app.queue.discover()
+    ApiHeroUI.widgets.jPlayer.player.on("trackEnded", (evt)=>
+      if ApiHeroUI.widgets.jPlayer.queue._discoveryMode
+        ApiHeroUI.widgets.jPlayer.queue.discover()
       else if @play_mode == "playlist"
         @fadv()
       else
