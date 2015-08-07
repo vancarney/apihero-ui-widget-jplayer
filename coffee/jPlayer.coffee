@@ -63,5 +63,6 @@ ApiHeroUI.widgets.jPlayer::defaults =
 ApiHeroUI.widgets.jPlayer.utils =
   isSafari:->
     ($.browser.webkit && (!window.navigator.userAgent.match /.*(Chrome)+.*/))?
+console.log ApiHeroUI.widgets.jPlayer.utils
 ApiHeroUI.widgets.jPlayer.controls = {}
 ApiHeroUI.widgets.jPlayer.components = {}
