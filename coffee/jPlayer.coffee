@@ -34,7 +34,7 @@ class ApiHeroUI.widgets.jPlayer.QueueClass extends Backbone.Collection
       type:"mp3"
 ApiHeroUI.widgets.jPlayer.utils =
   isSafari:->
-    ($.browser.webkit && (!window.navigator.userAgent.match /.*(Chrome)+.*/))?
+    (/Safari/.test navigator.userAgent and /Apple Computer/.test navigator.vendor)
 console.log ApiHeroUI.widgets.jPlayer.utils
 ApiHeroUI.widgets.jPlayer.controls = {}
 ApiHeroUI.widgets.jPlayer.components = {}
