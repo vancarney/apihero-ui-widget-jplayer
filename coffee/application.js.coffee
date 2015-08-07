@@ -1,5 +1,6 @@
 ###
-= require jplayer/dist/jplayer/jquery.jplayer
-= require apihero-ui/assets/coffee/core
-= require_tree .
+= require ../bower_components/jplayer/dist/jplayer/jquery.jplayer
+= require ./jplayer
+= require ./jplayer-ui
+= require_tree ./ui
 ###

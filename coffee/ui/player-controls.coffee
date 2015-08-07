@@ -1,4 +1,4 @@
-class ApiHeroUI.Widgets.jPlayer.PlayerControls extends Backbone.View
+class ApiHeroUI.widgets.jPlayer.components.PlayerControls extends Backbone.View
   events:
     "click .ppause": (evt)=>
       evt.preventDefault()

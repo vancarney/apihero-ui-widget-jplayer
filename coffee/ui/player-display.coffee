@@ -1,6 +1,6 @@
-class ApiHeroUI.Widgets.jPlayer.PlayerDisplay extend ApiHeroUI.core.View
+class ApiHeroUI.widgets.jPlayer.components.PlayerDisplay extends ApiHeroUI.core.View
   subviews:
-    "#trackbar":Scrubber
+    "#trackbar":ApiHeroUI.widgets.jPlayer.controls.Scrubber
     "#meta": ApiHeroUI.core.View.extend
       childrenComplete:->
         @$('span').rotaterator
@@ -23,7 +23,7 @@ class ApiHeroUI.Widgets.jPlayer.PlayerDisplay extend ApiHeroUI.core.View
       @["#trackbar"].duration @__player._duration
   init:(o)->
     if o.hasOwnProperty 'player'
-      unless o.player instanceof ApiHeroUI.Widgets.jPlayer
+      unless o.player instanceof ApiHeroUI.widgets.jPlayer
         console.log "Error: player was required to be a subclass of ApiHeroUI.Widgets.jPlayer."
         return delete o.player 
       @__player = o.player

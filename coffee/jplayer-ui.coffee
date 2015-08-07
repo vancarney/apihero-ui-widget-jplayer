@@ -1,9 +1,9 @@
-class ApiHeroUI.Widgets.PlayerUI extends ApiHeroUI.core.View
+class ApiHeroUI.widgets.jPlayerUI extends ApiHeroUI.core.View
   _index:-1
   play:()->
-    global.app.player.play()
+    ApiHeroUI.widgets.jPlayer.player.play()
   pause:()->
-    global.app.player.pause()
+    ApiHeroUI.widgets.jPlayer.player.pause()
   setTrack:(idx)->
     @hud.setModel (m = @model.at (@_index = idx))
     # console.log "set track:"
@@ -43,8 +43,8 @@ class ApiHeroUI.Widgets.PlayerUI extends ApiHeroUI.core.View
       # @player.load m.get "mp3_file_path"
       # @hud.setModel m
   subviews:
-    "#trackHUD": ApiHeroUI.Widgets.jPlayer.PlayerDisplay
-    ".ctrl_buttons": ApiHeroUI.Widgets.jPlayer.PlayerControls
+    "#trackHUD": ApiHeroUI.widgets.jPlayer.ui.components.PlayerDisplay
+    ".ctrl_buttons": ApiHeroUI.widgets.jPlayer.ui.components.PlayerControls
   init:(o)->
     if (@model)
       @model.fetch
@@ -54,7 +54,7 @@ class ApiHeroUI.Widgets.PlayerUI extends ApiHeroUI.core.View
     global.app.player.on "loadStart", (evt)=>
       console.log "loadstart"
       @$el.find(".time").text "00:00"
-      @hud.setModel global.app.queue.getCurrentTrack()
+      @hud.setModel ApiHeroUI.widgets.jPlayer.queue.getCurrentTrack()
     # @discovery = new global.Tunstr.Discovery
 
     

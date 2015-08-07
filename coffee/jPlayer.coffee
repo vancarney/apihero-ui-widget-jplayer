@@ -2,7 +2,8 @@
   Player.coffee
   jPlayer Controller
 ###
-ApiHeroUI.Widgets.jPlayer extends ApiHeroUI.core.View
+ApiHeroUI.widgets ?= {}
+class ApiHeroUI.widgets.jPlayer extends ApiHeroUI.core.View
   _player: null
   _ready: false
   _duration:0
@@ -25,7 +26,13 @@ ApiHeroUI.Widgets.jPlayer extends ApiHeroUI.core.View
     opts = _.clone @defaults
     _.extend opts, o.options || {}
     @_player = @$el.jPlayer opts
-ApiHeroUI.Widgets.jPlayer::defaults = 
+    @queue = new ApiHeroUI.widgets.jPlayer.QueueClass
+class ApiHeroUI.widgets.jPlayer.QueueClass extends Backbone.Collection
+  model:Backbone.Model.extend
+    defaults:
+      file:null
+      type:"mp3"
+ApiHeroUI.widgets.jPlayer::defaults = 
   swfPath:"/"
   supplied: "#{if global.isSafari() then 'mp3' else 'rtmpv'}"
   preload: "metadata"
@@ -53,3 +60,5 @@ ApiHeroUI.Widgets.jPlayer::defaults =
       @trigger "durationChange", (@_duration = evt.jPlayer.status.duration)
   ended: (evt)=>
     @trigger "trackEnded"
+ApiHeroUI.widgets.jPlayer.controls = {}
+ApiHeroUI.widgets.jPlayer.components = {}

@@ -1,0 +1,28 @@
+{
+  "name": "apihero-ui",
+  "authors": [
+    "Van Carney <carney.van@gmail.com>"
+  ],
+  "main": "public/js/app.js",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "jquery": "^2.1.4",
+    "lodash": "^3.9.3",
+    "backbone": "^1.1.2",
+    "jquery.cookie": "^1.4.1",
+    "handlebars": "^3.0.3",
+    "fun-utils": "git+https://github.com/vancarney/fun-utils"
+  },
+  "devDependencies": {},
+  "homepage": "https://github.com/vancarney/backbone-ui",
+  "_release": "957a8dbfd8",
+  "_resolution": {
+    "type": "branch",
+    "branch": "apihero-ui",
+    "commit": "957a8dbfd87a34f43872ee813768dc154d9de56a"
+  },
+  "_source": "https://github.com/vancarney/backbone-ui.git",
+  "_target": "apihero-ui",
+  "_originalSource": "git+https://github.com/vancarney/backbone-ui"
+}
